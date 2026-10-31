@@ -1,0 +1,3949 @@
+{
+  "schema": "sjtu-thesis-classified-review/v1",
+  "summary": {
+    "file_count": 21,
+    "supplied_pdf_pages": 1851,
+    "extracted_and_read_text_characters": 1612639,
+    "file_pages_read_count": 21,
+    "research_core_complete_count": 20,
+    "all_TOC_endmatter_present_count": 13,
+    "structural_preflight_counts": {
+      "PASS": 19,
+      "UNAVAILABLE": 2
+    },
+    "MEM_core_complete_with_preflight_PASS": 14,
+    "completeness_unknown_ids": [
+      "P03"
+    ],
+    "selected_visual_page_checks": 185,
+    "degree_group_counts": {
+      "EMBA_auxiliary": 2,
+      "MBA_auxiliary": 3,
+      "MEM_core": 16
+    },
+    "research_core_complete_by_degree": {
+      "EMBA_auxiliary": 2,
+      "MBA_auxiliary": 2,
+      "MEM_core": 16
+    }
+  },
+  "reviews": [
+    {
+      "id": "P01",
+      "context_stratum": "laboratory_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录列有的研究主体与参考文献均存在；未列致谢/声明，不能据此判本文件缺页。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              9,
+              10
+            ]
+          ],
+          "status": "present",
+          "public_note": "章节按问题、原因、设计与应用展开，可追踪研究主线。",
+          "public_counterexample_or_limit": "目录层次仅反映样本组织方式，不作为学院强制章数。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              4
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要交代业务对象、管理问题及数字化方案的主要内容。",
+          "public_counterexample_or_limit": "篇幅与效益判断需另核模板和正文，不能整体照搬。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              5,
+              8
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要延续中文的研究对象与主要方案，便于双语对照。",
+          "public_counterexample_or_limit": "语言质量与篇幅存在差异，不能据此设定双语摘要标准。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              11,
+              18
+            ]
+          ],
+          "status": "present",
+          "public_note": "从实验资源协调困难引出管理研究，体现具体业务约束。",
+          "public_counterexample_or_limit": "宏观背景与方法名称较多，不能代替数据采集过程说明。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              14,
+              22
+            ]
+          ],
+          "status": "present",
+          "public_note": "理论工具与后续诊断关联，可借鉴概念到分析对象的衔接。",
+          "public_counterexample_or_limit": "理论介绍还应辨析已有研究限制，避免只罗列工具定义。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              16,
+              16
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              28,
+              28
+            ]
+          ],
+          "status": "present",
+          "public_note": "访谈讨论与现场资料共同支撑问题识别，具备应用研究特征。",
+          "public_counterexample_or_limit": "专家方法的步骤和参与者依据不足，不宜直接称严格验证。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              23,
+              31
+            ]
+          ],
+          "status": "present",
+          "public_note": "现状按资源、流程和人员展开，有利于解释效率问题。",
+          "public_counterexample_or_limit": "同类基础事实在不同位置出现差异，应回查统一口径。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              40,
+              57
+            ]
+          ],
+          "status": "present",
+          "public_note": "系统功能与职责权限写得具体，呈现实际操作和资源安排。",
+          "public_counterexample_or_limit": "方案设计、已完成应用与后续计划仍需更明确地区分。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              57,
+              60
+            ]
+          ],
+          "status": "present",
+          "public_note": "以周期和利用等指标连接方案与业务变化，便于读者判断。",
+          "public_counterexample_or_limit": "局部观察不能证明普遍因果，极值也不能代替整体分布。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              61,
+              62
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论回应主要问题，并说明方案形成与应用的研究成果。",
+          "public_counterexample_or_limit": "首创和推广性措辞须有额外比较证据，不能直接沿袭。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              11,
+              11
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              32,
+              32
+            ],
+            [
+              45,
+              45
+            ],
+            [
+              48,
+              48
+            ],
+            [
+              52,
+              52
+            ]
+          ],
+          "status": "present",
+          "public_note": "正文使用编号关联理论与方法，保留来源有利于追溯。",
+          "public_counterexample_or_limit": "存在来源标记不代表论断均被支持，仍须逐命题核查。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              63,
+              68
+            ]
+          ],
+          "status": "present",
+          "public_note": "文末包含多类型中外文文献，可观察应用研究的资料构成。",
+          "public_counterexample_or_limit": "历史著录样式不统一，不能作为当届参考文献规范模板。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P02",
+      "context_stratum": "laboratory_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "中英摘要、目录、七章、参考文献、附录、致谢、成果页均存在；末页另附声明。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "status": "present",
+          "public_note": "目录显示设备、库存、能力和应用评价分别展开，结构完整。",
+          "public_counterexample_or_limit": "不同管理对象的分章有情境原因，不宜固定为通用框架。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              4
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要把管理问题、方法和改善方向放在同一条研究线上。",
+          "public_counterexample_or_limit": "摘要结果的强度应受实际验证范围限制，不能替代正文。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              5,
+              6
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要涵盖同一应用对象及主要管理工具，可作核对入口。",
+          "public_counterexample_or_limit": "英语表达和具体格式应独立编辑，不沿用历史排版惯例。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              11,
+              26
+            ]
+          ],
+          "status": "present",
+          "public_note": "绪论从实验业务要求与资源限制说明研究必要性，问题明确。",
+          "public_counterexample_or_limit": "概括研究价值时需保留适用条件，避免外推为行业结论。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              13,
+              19
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              33,
+              35
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              46,
+              51
+            ],
+            [
+              72,
+              72
+            ]
+          ],
+          "status": "present",
+          "public_note": "工具介绍结合非流水作业特点，体现方法选择需适配场景。",
+          "public_counterexample_or_limit": "方法使用广泛不等于当前场景适用，仍需解释限制与取舍。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              24,
+              24
+            ],
+            [
+              46,
+              58
+            ],
+            [
+              73,
+              91
+            ]
+          ],
+          "status": "present",
+          "public_note": "展示评分、仿真与库存分析的步骤，使计算过程较可追踪。",
+          "public_counterexample_or_limit": "专家评分仍有主观性，拟合与模型验证也不能只看单一指标。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              22,
+              24
+            ],
+            [
+              27,
+              38
+            ],
+            [
+              65,
+              67
+            ],
+            [
+              97,
+              100
+            ]
+          ],
+          "status": "present",
+          "public_note": "设备和库存诊断分别给业务约束与观测资料，便于定位浪费。",
+          "public_counterexample_or_limit": "原始记录覆盖范围与参数假设需分开，避免混为客观全貌。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              40,
+              64
+            ],
+            [
+              65,
+              93
+            ],
+            [
+              94,
+              114
+            ]
+          ],
+          "status": "present",
+          "public_note": "方案给操作制度、人员职责和执行频次，有利于实际落地。",
+          "public_counterexample_or_limit": "框架覆盖面与已实施范围应分别报告，不能以设计代替完成。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              102,
+              118
+            ]
+          ],
+          "status": "present",
+          "public_note": "将模型计算和应用数据都呈现出来，可分别说明不同证据作用。",
+          "public_counterexample_or_limit": "观测窗口与图表存在不一致；个别设备比较不足以识别净效果。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              119,
+              120
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论回到设备与库存管理问题，保留后续持续改进任务。",
+          "public_counterexample_or_limit": "理论节约、观测变化和推广收益应保持不同的结论强度。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              12,
+              19
+            ],
+            [
+              39,
+              39
+            ],
+            [
+              46,
+              51
+            ],
+            [
+              72,
+              72
+            ],
+            [
+              96,
+              96
+            ]
+          ],
+          "status": "present",
+          "public_note": "正文在工具和理论位置保留来源，原图有助于识别上标。",
+          "public_counterexample_or_limit": "文字提取遗漏可能制造缺引假象，应先看原图再下判断。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              121,
+              122
+            ]
+          ],
+          "status": "present",
+          "public_note": "书刊、学位和网络资料共同构成来源，能观察资料类型。",
+          "public_counterexample_or_limit": "部分元数据与网络著录不充分，不能继承为格式合格样板。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P03",
+      "context_stratum": "laboratory_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": null,
+        "note": "可见目录只到6.2，参考文献/附录/课程成果/声明实际存在；后置印刷79页不在文件，内容未知，不把可用文件读完等同全原书无缺页。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "status": "present",
+          "public_note": "可见目录覆盖研究主体，正文另有文献和附录等后置内容。",
+          "public_counterexample_or_limit": "目录本身不覆盖全部后置项目，源文件缺页疑点须单列。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要说明运行管理对象及设备、人员与流程的改进方向。",
+          "public_counterexample_or_limit": "方案与实际收益的关系仍需正文验证，不能由摘要直接认证。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要保留研究对象和管理改进内容，可核查信息一致性。",
+          "public_counterexample_or_limit": "双语语言质量与最新模板要求需单独审查，不能照搬长度。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              9,
+              19
+            ]
+          ],
+          "status": "present",
+          "public_note": "绪论以运行条件与能力约束展开，应用问题具有具体背景。",
+          "public_counterexample_or_limit": "行业意义和普遍适用性应限定，不把案例价值自动放大。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              12,
+              16
+            ],
+            [
+              28,
+              29
+            ],
+            [
+              35,
+              39
+            ],
+            [
+              51,
+              52
+            ]
+          ],
+          "status": "present",
+          "public_note": "理论支撑设备评价和人员安排，方法有对应的管理用途。",
+          "public_counterexample_or_limit": "理论权威不能保证具体模型有效，评分和假设仍需核实。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              35,
+              46
+            ],
+            [
+              53,
+              68
+            ]
+          ],
+          "status": "present",
+          "public_note": "评价与人员调度给出模型步骤，便于追踪约束和分配逻辑。",
+          "public_counterexample_or_limit": "存在约束近似放宽与后续人工调整，不能直接称严格最优。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              20,
+              27
+            ]
+          ],
+          "status": "present",
+          "public_note": "以设备、人员和作业流程描述运行矛盾，问题层次较清楚。",
+          "public_counterexample_or_limit": "头脑风暴识别的是候选原因，不能单独作为根因验证。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              30,
+              46
+            ],
+            [
+              47,
+              68
+            ],
+            [
+              69,
+              70
+            ]
+          ],
+          "status": "present",
+          "public_note": "岗位培训、作业流程和分工有实际安排，执行内容具体。",
+          "public_counterexample_or_limit": "同一人员的并行任务冲突仍需处理，模型结果不等于可执行排班。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              71,
+              77
+            ]
+          ],
+          "status": "present",
+          "public_note": "应用部分分别呈现资源安排和运行指标，便于比较方案前后。",
+          "public_counterexample_or_limit": "算式、章节汇总和局部结果存在差异，收益需回到原记录复核。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              78,
+              79
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论覆盖设备、人员与流程改进，并提出后续研究方向。",
+          "public_counterexample_or_limit": "已读取全部可用文字不等于原书完整，后置缺页内容仍未知。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              9,
+              16
+            ],
+            [
+              28,
+              29
+            ],
+            [
+              35,
+              39
+            ],
+            [
+              49,
+              51
+            ]
+          ],
+          "status": "present",
+          "public_note": "理论及方法处保留编号引用，便于追溯模型和工具来源。",
+          "public_counterexample_or_limit": "上标和公式解析存在噪声，引用缺失判断需结合原页核对。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              80,
+              82
+            ]
+          ],
+          "status": "present",
+          "public_note": "文末书目包含中外文多类型来源，研究核心部分实际存在。",
+          "public_counterexample_or_limit": "历史导出格式不统一，不能据此判定符合当前著录规范。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P04",
+      "context_stratum": "customer_marketing_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录所列七章和参考文献均在，另有致谢/声明。方法有数据和调查但非独立成章。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              7,
+              9
+            ]
+          ],
+          "status": "present",
+          "public_note": "按外部环境、内部诊断及不同用户对象组织章节，主线可识别。",
+          "public_counterexample_or_limit": "目录与正文说明有编号和章数差异，不能直接继承其结构细节。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              4
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要以用户运营问题和分层策略组织内容，体现业务导向。",
+          "public_counterexample_or_limit": "背景较长且主要结果不足，不能作为高质量摘要的完整范本。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              5,
+              6
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要覆盖同一研究对象和数据分群方向，可作双语对照。",
+          "public_counterexample_or_limit": "存在搭配和语法问题，不能当作中文转英文的语言标准。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "status": "present",
+          "public_note": "从渠道成本和用户变化说明研究必要性，管理对象较具体。",
+          "public_counterexample_or_limit": "宏观材料与统计口径仍须独立核实，不能因来源样本而照抄。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              15,
+              19
+            ]
+          ],
+          "status": "present",
+          "public_note": "定义分层窗口并引入运营工具，为后续对象划分提供入口。",
+          "public_counterexample_or_limit": "部分概念定义与通常用法有偏移，且紧邻来源标记不足。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              13,
+              13
+            ],
+            [
+              35,
+              35
+            ],
+            [
+              41,
+              43
+            ],
+            [
+              52,
+              52
+            ],
+            [
+              55,
+              57
+            ]
+          ],
+          "status": "present",
+          "public_note": "回访问卷说明招募对象和完成情况，有助于识别调查分母。",
+          "public_counterexample_or_limit": "激励、未响应与编码过程会影响调查解释，需要如实交代。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "status": "present",
+          "public_note": "按渠道、群体和触点描述运营问题，便于提出有对象的策略。",
+          "public_counterexample_or_limit": "产品宣传与画像推断偏多，行为标签不能直接证明心理态度。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              41,
+              61
+            ]
+          ],
+          "status": "present",
+          "public_note": "触达时点、渠道和分层规则较具体，可借鉴方案的操作颗粒度。",
+          "public_counterexample_or_limit": "调研与策略调整的时间关系未解释，计划与完成状态混合。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              43,
+              59
+            ]
+          ],
+          "status": "present",
+          "public_note": "同时呈现规模、转化与成本方面的观察，便于讨论策略取舍。",
+          "public_counterexample_or_limit": "图文比例与部分基线口径不一致，非随机比较不足以证明增量。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              62,
+              63
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论回到分层和服务，并承认应用研究的理论贡献有限。",
+          "public_counterexample_or_limit": "局限还应说明识别与数据约束，不能只把不足写成一般展望。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              15,
+              19
+            ],
+            [
+              20,
+              23
+            ]
+          ],
+          "status": "present",
+          "public_note": "理论和环境材料有概念与来源线索，但点引关联较弱。",
+          "public_counterexample_or_limit": "所核理论原页缺少相邻编号，不能模仿只列书目而不绑定论断。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              64,
+              64
+            ]
+          ],
+          "status": "present",
+          "public_note": "文末有书籍和期刊列表，可确认其来源资料类型和实际存在。",
+          "public_counterexample_or_limit": "元数据与正文关联仍不充分，且该学位样本不支持工程硕士格式。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P05",
+      "context_stratum": "customer_marketing_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": false,
+        "all_TOC_endmatter_present": false,
+        "note": "缺目录第6—8章、结论、参考文献和致谢。不是OCR漏读，PDF最后物理页58确为第5章小结。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              7,
+              9
+            ]
+          ],
+          "status": "present",
+          "public_note": "目录列出诊断、策略、保障和结论，但所供文件终止于诊断小结。",
+          "public_counterexample_or_limit": "后续章节与文献实际缺失，不能把目录列有等同于论文完整。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要给出运营问题及对应策略，可观察问题与建议的关系。",
+          "public_counterexample_or_limit": "所供正文缺少策略和结论，摘要声称的解决效果无法核验。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要包含同一研究对象和策略方向，可核查基本对应。",
+          "public_counterexample_or_limit": "源文件不完整且英文质量有限，不能认证成果或语言符合要求。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              10,
+              18
+            ]
+          ],
+          "status": "present",
+          "public_note": "说明平台数据与渠道变化，并明确使用二手后台分析资料。",
+          "public_counterexample_or_limit": "案例推广的表述较强，不能由单个对象推定全行业有效。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              19,
+              22
+            ]
+          ],
+          "status": "present",
+          "public_note": "运营模型提供状态与指标分类，体现概念到分析对象的连接。",
+          "public_counterexample_or_limit": "介绍多于研究评述，模型定义的紧邻来源与版本说明不足。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              17,
+              18
+            ],
+            [
+              39,
+              41
+            ]
+          ],
+          "status": "present",
+          "public_note": "平台时间窗、行为判据和分群定义较具体，有助于识别口径。",
+          "public_counterexample_or_limit": "指数、人数、存量与流转率须区分，不同版本窗口不能混用。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              23,
+              58
+            ]
+          ],
+          "status": "present",
+          "public_note": "以群体、触点和同行比较诊断运营问题，分析对象较清楚。",
+          "public_counterexample_or_limit": "比较月份存在不一致，触点份额也不能直接证明渠道效率。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [],
+          "status": "absent",
+          "public_note": "所供源文件未包含目录列示的策略与保障章节，无法审查。",
+          "public_counterexample_or_limit": "不得用摘要或目录推测实施内容，本项不支持正向完整论文规则。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              43,
+              58
+            ]
+          ],
+          "status": "partial",
+          "public_note": "现有文字包含诊断性横向比较，未包含策略实施后的效果评价。",
+          "public_counterexample_or_limit": "漏斗率的分母与标签关系不清，不能据此认证转化链有效性。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [],
+          "status": "absent",
+          "public_note": "所供源文件未包含目录所列结论章节，全文结论无法审查。",
+          "public_counterexample_or_limit": "诊断章节的小结不能替代全篇结论，不登记虚构页码或内容。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              19,
+              22
+            ],
+            [
+              23,
+              32
+            ]
+          ],
+          "status": "present",
+          "public_note": "报告和图表有文字来源说明，可观察资料进入正文的方式。",
+          "public_counterexample_or_limit": "所核理论原页缺少紧邻引用，且文末书目缺失，关联无法完成。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [],
+          "status": "absent",
+          "public_note": "所供源文件未包含目录所列文末书目，无法核查著录内容。",
+          "public_counterexample_or_limit": "此缺项属于源文件覆盖问题，不能作引用格式合格的支持证据。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P06",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "结构核心完整与效果验证充分性分开；评价章实际是评价机制设计。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              7,
+              9
+            ]
+          ],
+          "status": "present",
+          "public_note": "目录按现状、原因、方案、保障与结论组织，列示项目齐备。",
+          "public_counterexample_or_limit": "结构完整只说明章节存在，不能证明方案已实施并取得成效。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              4
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要涵盖问题、改进工具与实施保障，主要为设计性研究内容。",
+          "public_counterexample_or_limit": "效益与意义表述较泛，需压缩宣传性描述并保留验证边界。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              5,
+              6
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要保留方法与方案，研究对象与中文基本对应。",
+          "public_counterexample_or_limit": "一般效益描述较多，应补足实际发现而非重复预期收益。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "status": "present",
+          "public_note": "采用问题、分析、解决与应用的研究路径，方法安排可辨识。",
+          "public_counterexample_or_limit": "必要性和价值反复表达较多，不能当作自然学术语言的正向模板。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              11,
+              16
+            ],
+            [
+              21,
+              32
+            ]
+          ],
+          "status": "present",
+          "public_note": "综述和理论工具分别展开，便于查找概念及后续应用位置。",
+          "public_counterexample_or_limit": "逐作者罗列和工具效益重复较多，应改为比较研究及适用条件。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              18,
+              20
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              73,
+              74
+            ]
+          ],
+          "status": "present",
+          "public_note": "头脑风暴、鱼骨与多方案比较用于组织问题和改善思路。",
+          "public_counterexample_or_limit": "候选原因未充分验证，实证方法名称不能替代测量及执行记录。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              33,
+              63
+            ]
+          ],
+          "status": "present",
+          "public_note": "现场约束与资源资料能说明管理矛盾，便于确定改进对象。",
+          "public_counterexample_or_limit": "泛化描述和人员动机归因偏多，判断应回到可核事实及记录。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              64,
+              91
+            ]
+          ],
+          "status": "present",
+          "public_note": "方案比较保留成本、空间与改造负担，可借鉴权衡表达方式。",
+          "public_counterexample_or_limit": "主要为应然建议和未来状态设计，不能自动登记为已完成措施。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              71,
+              75
+            ],
+            [
+              84,
+              87
+            ]
+          ],
+          "status": "partial",
+          "public_note": "给出评价流程与未来状态展示，体现设计研究需要检查机制。",
+          "public_counterexample_or_limit": "未见可比实施后结果序列，未来状态图不能当作实际成效证据。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              92,
+              93
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论归纳问题与改善方向，展望指出后续执行和研究需要。",
+          "public_counterexample_or_limit": "不能因章节齐全而称效果已验证，成果状态和时态应保持一致。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              11,
+              16
+            ]
+          ],
+          "status": "present",
+          "public_note": "原页有上标序号连接文献，说明提取文本不能替代引用原貌。",
+          "public_counterexample_or_limit": "年份与条目对应仍需核实，不能由存在编号推定来源支持全部论断。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              94,
+              95
+            ]
+          ],
+          "status": "present",
+          "public_note": "书目包含多类中外文资料，可观察应用研究的资料构成。",
+          "public_counterexample_or_limit": "部分出版和期卷页信息不足，历史样式不能取代最新学院要求。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P07",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "来源结构核心完整；全文读取完成不认证所有测算、引文和实施声明为真。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "status": "present",
+          "public_note": "目录覆盖部署方法、推进方法、实施验证和后置资料，结构齐全。",
+          "public_counterexample_or_limit": "章节与篇幅仅是案例研究组织方式，不是学院统一长度或章数要求。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "status": "present",
+          "public_note": "摘要连接问题诊断、方法设计、阶段实施和结果，研究链较完整。",
+          "public_counterexample_or_limit": "最优性与有效性措辞偏强，需注明阶段验证和单案例限制。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "status": "present",
+          "public_note": "英文摘要保留中文的主要方法与结果，可核对事实和范围一致性。",
+          "public_counterexample_or_limit": "拼写和过强推广表述应独立编辑，不能自动视为英语质量标准。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              9,
+              18
+            ]
+          ],
+          "status": "present",
+          "public_note": "从实际供应链约束起笔，再引出已有方法的场景适配问题。",
+          "public_counterexample_or_limit": "必要性判断不等于唯一选择，案例价值也不能自动放大到全行业。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献与理论",
+          "pdf_page_ranges": [
+            [
+              11,
+              17
+            ]
+          ],
+          "status": "present",
+          "public_note": "按定义、实践和关键要素组织文献，并比较模型的适用困难。",
+          "public_counterexample_or_limit": "部分成熟度和成功率说法的依据不足，比较结论仍须回到原始文献。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              26,
+              47
+            ],
+            [
+              51,
+              57
+            ],
+            [
+              75,
+              91
+            ]
+          ],
+          "status": "present",
+          "public_note": "给出量表锚点、采集复核与指标适配步骤，使方法较可追踪。",
+          "public_counterexample_or_limit": "等级边界图文不一致，量表信效度与评分过程还需补证。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              19,
+              47
+            ],
+            [
+              51,
+              57
+            ],
+            [
+              94,
+              96
+            ],
+            [
+              105,
+              106
+            ],
+            [
+              111,
+              116
+            ]
+          ],
+          "status": "present",
+          "public_note": "将工艺特点、绩效关联和管理重点连接起来，诊断较贴近业务。",
+          "public_counterexample_or_limit": "典型小样本不能证明行业普遍性，地理与对象代号也应统一核对。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              48,
+              91
+            ],
+            [
+              92,
+              134
+            ]
+          ],
+          "status": "present",
+          "public_note": "记录培训、作业、采集与阶段验收，能看出方案落地的先后依赖。",
+          "public_counterexample_or_limit": "人员筛选、辅助人力和时点变化影响可比性，不能省略实施条件。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              103,
+              111
+            ],
+            [
+              121,
+              121
+            ],
+            [
+              129,
+              138
+            ]
+          ],
+          "status": "present",
+          "public_note": "区分局部试验、能力评价与经营变化，多层证据可分别解释。",
+          "public_counterexample_or_limit": "部分时长记录不符，外部扰动未给排除方法，因果与收益须限缩。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              139,
+              141
+            ]
+          ],
+          "status": "present",
+          "public_note": "结论保留后续未完成任务，并讨论不同业务模式的适用边界。",
+          "public_counterexample_or_limit": "按章节复述偏长，单案例前后观察不能证明方法最优或普适因果。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              11,
+              17
+            ],
+            [
+              50,
+              50
+            ],
+            [
+              75,
+              91
+            ]
+          ],
+          "status": "present",
+          "public_note": "概念、方法和改编图示保留来源，原图能核对上标关联。",
+          "public_counterexample_or_limit": "机构或人名提示仍需文末可追踪条目，点引存在也不等于论断成立。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              142,
+              145
+            ]
+          ],
+          "status": "present",
+          "public_note": "书目覆盖中英文及网络资料，部分保留引用页和访问日期。",
+          "public_counterexample_or_limit": "断词、类型与链接需要逐项整理，二手量表来源不能直接认证效度。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P08",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、五章主体、参考文献、四附录、致谢、课程说明及声明均可见；非所有图表算术审核。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "public_note": "章节按问题分析、分阶段设计及效果评价展开，主线可沿目录追踪。",
+          "public_counterexample_or_limit": "目录层级可供体裁参考，章节数量及排版仍须服从适用模板。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要交代研究对象、改善路径和主要结果，关键指标联系具体环节。",
+          "public_counterexample_or_limit": "结果措辞应与正文证据对应，避免把所有收益均写成已验证效果。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要承接中文研究路径与主要指标，保留方法名称和适用对象。",
+          "public_counterexample_or_limit": "双语仍需逐项核对数值、单位和研究状态，不能仅作逐句直译。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              10,
+              21
+            ]
+          ],
+          "public_note": "绪论从业务背景逐步收敛至现场流程问题，再交代研究安排。",
+          "public_counterexample_or_limit": "背景与意义需要控制篇幅，宏观判断不能代替具体问题证据。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              13,
+              19
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "public_note": "理论说明与案例工具相衔接，方法选择联系生产流程及数据条件。",
+          "public_counterexample_or_limit": "历史定义和二手文献转述需独立核验，不构成可直接复用的事实。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              24,
+              26
+            ],
+            [
+              27,
+              35
+            ],
+            [
+              47,
+              58
+            ],
+            [
+              70,
+              76
+            ]
+          ],
+          "public_note": "先识别流程与测量对象，再以不同分析工具支持分阶段方案。",
+          "public_counterexample_or_limit": "经验参数、模糊量与概率分布不能未经论证直接互换使用。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              27,
+              39
+            ]
+          ],
+          "public_note": "通过具体流程和时间构成定位问题，说明瓶颈产生的业务条件。",
+          "public_counterexample_or_limit": "局部观察仍需交代样本及测量口径，不能直接推广全体场景。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              40,
+              62
+            ],
+            [
+              63,
+              84
+            ]
+          ],
+          "public_note": "方案落实到流程调整、资源安排和实施步骤，保留工程实践细节。",
+          "public_counterexample_or_limit": "方案的可执行性与实际成效不同，实施描述不能自动证明全部收益。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              61,
+              62
+            ],
+            [
+              83,
+              86
+            ]
+          ],
+          "public_note": "评价沿用前述指标与阶段划分，使结果能够回溯到具体措施。",
+          "public_counterexample_or_limit": "比例差与相对变化率需分清，安全及节能等收益另需测量证据。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              85,
+              87
+            ]
+          ],
+          "public_note": "结论归纳阶段性研究发现，并讨论后续改善方向和适用范围。",
+          "public_counterexample_or_limit": "前后观察差异不能直接写成独立因果效果，推广范围需受证据约束。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ],
+            [
+              22,
+              26
+            ],
+            [
+              63,
+              63
+            ],
+            [
+              78,
+              79
+            ]
+          ],
+          "public_note": "理论与方法附近可见序号引用，部分正文为具体来源提供定位。",
+          "public_counterexample_or_limit": "文内编号与主张仍需逐条核对，阅读参考论文不等于核验其引文。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              88,
+              91
+            ]
+          ],
+          "public_note": "文末按序列出中英文文献，能够支持进一步追溯理论来源。",
+          "public_counterexample_or_limit": "字段和文内对应关系仍需复核，不能将历史书目直接复制进新论文。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P09",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录所列研究主体和尾部可见，无缺章缺页迹象；不代表逐条引文或全部算术审核。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "public_note": "目录把现状、方案、仿真与评价分章组织，研究阶段相对清楚。",
+          "public_counterexample_or_limit": "章节组织可供借鉴，但目录外观与旧样本样式不属于现行格式规范。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要概括流程诊断、仿真路径与结果，能够看出研究的主要对象。",
+          "public_counterexample_or_limit": "模拟输出与实际实施收益应在摘要中保持清楚界线。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要覆盖中文研究对象及方法路径，并列出主要评价方向。",
+          "public_counterexample_or_limit": "英文语法和数值对应仍须独立校订，不能以样本存在替代质量判断。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              9,
+              17
+            ]
+          ],
+          "public_note": "绪论将业务问题与研究工具联系起来，交代研究范围与技术路线。",
+          "public_counterexample_or_limit": "宏观意义应服务研究问题，不宜扩大为未经验证的普遍结论。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              12,
+              15
+            ],
+            [
+              18,
+              28
+            ]
+          ],
+          "public_note": "理论部分介绍价值流与仿真等工具，并连接后续的方案评价。",
+          "public_counterexample_or_limit": "工具定义和案例效果需要原始来源支持，不能靠工具数量增强论证。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              33,
+              40
+            ],
+            [
+              54,
+              66
+            ]
+          ],
+          "public_note": "模型明确部分简化假设，用场景模拟探索未来流程的运行状况。",
+          "public_counterexample_or_limit": "敏感性检验不等于模型可靠性，显著性概率也不能解释为结论概率。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              29,
+              48
+            ]
+          ],
+          "public_note": "现状围绕生产流程、等待及物流条件展开，为未来方案提供依据。",
+          "public_counterexample_or_limit": "不同章节的基准数据应一致，历史图表和正文口径需互相校验。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              49,
+              61
+            ]
+          ],
+          "public_note": "未来流程结合资源配置与物流安排，用仿真检查方案可行性。",
+          "public_counterexample_or_limit": "仿真中替代人工的设备角色不能自动当成已上线的真实能力。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              67,
+              74
+            ]
+          ],
+          "public_note": "评价同时讨论多个流程指标，使方案比较具有明确的业务对象。",
+          "public_counterexample_or_limit": "表图基准、归一化公式与指标来源存在待核点，不能直接继承结论。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              75,
+              76
+            ]
+          ],
+          "public_note": "结论回到流程与仿真发现，并为后续实际实施保留研究空间。",
+          "public_counterexample_or_limit": "模拟结果不应扩写为已经实现的财务收益或长期运营效果。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              12,
+              15
+            ],
+            [
+              18,
+              28
+            ],
+            [
+              62,
+              65
+            ],
+            [
+              76,
+              76
+            ]
+          ],
+          "public_note": "相关方法与模型讨论附近可见序号引用，具备基础追溯线索。",
+          "public_counterexample_or_limit": "文内引用范围与具体主张仍需核对，不宜把二手转述当一手证据。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              77,
+              80
+            ]
+          ],
+          "public_note": "文末列出中英文研究来源，覆盖方法、应用案例及学位研究。",
+          "public_counterexample_or_limit": "条目字段与尾部页眉仍有待核问题，书目和版式不能整体照用。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P10",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "文件80页均读；中英摘要、六章主体和参考文献均在，研究核心完整；目录致谢印刷71页在文件中未见（参考文献70后接课程72），尾部不全。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "public_note": "目录呈现现状、原因、方案实施及控制的连续研究路径。",
+          "public_counterexample_or_limit": "目录列出的个别尾部内容未在文件中出现，完整性须单独登记。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要围绕具体业务问题列出改善方法、实施结果和后续控制。",
+          "public_counterexample_or_limit": "摘要宣称的方法须在正文找到对应过程，双语金额也须一致。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要复述主要研究问题与方案，便于双语交叉核对。",
+          "public_counterexample_or_limit": "中英文结果存在口径待核点，不能默认翻译已经完整保留事实。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              9,
+              24
+            ]
+          ],
+          "public_note": "绪论说明研究背景、既有研究及案例研究路线，逐步引出业务对象。",
+          "public_counterexample_or_limit": "方法名称和研究意义应与实际执行一致，避免在前文提前夸大。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              12,
+              22
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "public_note": "相关理论连接到现场改善工具，文献为问题分析提供背景。",
+          "public_counterexample_or_limit": "部分文内作者及编号与文末条目存在待核对应，不可直接承接。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              18,
+              19
+            ],
+            [
+              21,
+              24
+            ],
+            [
+              30,
+              34
+            ],
+            [
+              36,
+              40
+            ]
+          ],
+          "public_note": "以现状数据和原因分析支撑方案，研究工具分布于多个阶段。",
+          "public_counterexample_or_limit": "统计方法、公式分母及测量单位需验证，方法名称不等于已执行证明。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              25,
+              45
+            ]
+          ],
+          "public_note": "诊断结合设备、物流及信息流程，呈现问题产生的具体条件。",
+          "public_counterexample_or_limit": "表内比例与总量仍需核对，不能让精细表格掩盖基础口径错误。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              46,
+              61
+            ]
+          ],
+          "public_note": "实施安排同时涉及设备、信息流程和组织保障，方案具备执行层次。",
+          "public_counterexample_or_limit": "实施过程与结果证据应分开记录，不能以方案已写完代替效果评估。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              61,
+              71
+            ]
+          ],
+          "public_note": "效果评价沿前述业务指标比较改善情况，并讨论控制与持续运行。",
+          "public_counterexample_or_limit": "效率计算和空间价值折算存在待核点，收益不可重复计算。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              72,
+              73
+            ]
+          ],
+          "public_note": "结论归纳现状诊断与改善路径，并提出后续管理和研究方向。",
+          "public_counterexample_or_limit": "未在正文获得充分检验的结论，不应在总结中补成确定成效。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              13,
+              20
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              36,
+              40
+            ],
+            [
+              69,
+              70
+            ]
+          ],
+          "public_note": "方法与综述附近存在序号引用，能够沿编号追溯到书目。",
+          "public_counterexample_or_limit": "个别编号对应题名与正文转述主题不合，须查原文后再引用。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              74,
+              78
+            ]
+          ],
+          "public_note": "文末集合多种来源类型，为理论与案例研究提供书目线索。",
+          "public_counterexample_or_limit": "书目对应、字段完整性和引用真实性仍需另行核验。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P11",
+      "context_stratum": "research_development_and_training",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "文件86页已全部读完。中英摘要、目录、五章、参考文献和附录均在；目录所列印刷77页致谢及78页攻读期间论文不在本文件中。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "public_note": "目录按现状、原因、流程设计评价和结论展开，研究主线可追踪。",
+          "public_counterexample_or_limit": "目录所列尾部未全部出现在文件中，不能把可读文件等同整本齐备。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要说明研究流程、分析工具和主要干预机制，突出具体研发对象。",
+          "public_counterexample_or_limit": "方法串列较长且关键结果量化不足，推广措辞仍须收敛。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              4
+            ]
+          ],
+          "public_note": "英文摘要与中文的主要路径对应，保留流程与评审等核心概念。",
+          "public_counterexample_or_limit": "英文术语及语法需要独立校订，不能照抄为语言标准。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "public_note": "绪论从行业链条进入流程管理问题，再说明研究意义及安排。",
+          "public_counterexample_or_limit": "宏观归因和全行业推广需要额外证据，不能由单案例直接推出。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              15,
+              19
+            ],
+            [
+              44,
+              54
+            ]
+          ],
+          "public_note": "文献与方法说明围绕流程改进、集成开发和并行工程展开。",
+          "public_counterexample_or_limit": "文献综述仍有罗列倾向，必要评审等非增值活动不应一概删除。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              25,
+              30
+            ],
+            [
+              31,
+              38
+            ],
+            [
+              40,
+              54
+            ]
+          ],
+          "public_note": "通过量表、访谈和流程分析选择改进方向，指标有业务定义。",
+          "public_counterexample_or_limit": "量表方向、同项均值及主观权重需核对，诊断排序不等于因果验证。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              21,
+              39
+            ]
+          ],
+          "public_note": "诊断把需求、变更和周期拆成不同目标，避免混成单一成效。",
+          "public_counterexample_or_limit": "现状与新流程部分混用，同名指标及不同统计单位也需严格区分。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              55,
+              73
+            ]
+          ],
+          "public_note": "方案明确角色、交付物和决策点，并解释并行设计的业务条件。",
+          "public_counterexample_or_limit": "文件或流程数量不能代替研究贡献，大图细节仍需独立核对。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              72,
+              75
+            ]
+          ],
+          "public_note": "评价沿既定指标报告项目观察结果，同时保留进一步改善空间。",
+          "public_counterexample_or_limit": "比例差与变化率存在混用，跨项目观察不足以证明普遍因果成效。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              76,
+              77
+            ]
+          ],
+          "public_note": "结论对应流程和并行设计发现，展望指向评审与评价体系的细化。",
+          "public_counterexample_or_limit": "竞争力与推广结论偏强，适用范围应受单案例和比较设计约束。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              11,
+              19
+            ],
+            [
+              44,
+              54
+            ],
+            [
+              55,
+              74
+            ]
+          ],
+          "public_note": "理论和流程工具附近有序号引文，为后续溯源提供入口。",
+          "public_counterexample_or_limit": "行业基准和经验规则部分来源不清，须查原始资料后再采用。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              78,
+              81
+            ]
+          ],
+          "public_note": "书目混合期刊、学位论文及图书，能够提供理论研究线索。",
+          "public_counterexample_or_limit": "部分类型、题名及载体字段待核，旧有书目不得未经验证转用。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P12",
+      "context_stratum": "research_development_and_training",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "113页全部可用文本已顺序读完；目录、中英摘要、六章、参考文献完整可见；目录所列致谢页未在文件中提供。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              7
+            ]
+          ],
+          "public_note": "目录把需求、现状、流程改造和结果评价分章，研究层次清楚。",
+          "public_counterexample_or_limit": "目录所列尾部未全部保留，应与研究主体完整性分开统计。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要交代服务流程、时间分析、自动化和试点评价的整体路径。",
+          "public_counterexample_or_limit": "开场与工具串列偏长，成功措辞须受到实际比较设计限制。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要覆盖中文主要方法和结果，具备双语核对的基础。",
+          "public_counterexample_or_limit": "英文宏观开场更长，语法及术语仍需独立校订。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              8,
+              20
+            ]
+          ],
+          "public_note": "绪论围绕角色需求、重复工作和跨区域流程差异引出研究范围。",
+          "public_counterexample_or_limit": "概念修饰和宏观背景偏多，不能据样本篇幅模仿冗长行文。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ]
+          ],
+          "public_note": "理论按服务精益、流程再造和持续改进组织，并说明数据约束。",
+          "public_counterexample_or_limit": "相关案例多逐条列举，别处改善比例不能直接转移到本研究。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              24,
+              29
+            ],
+            [
+              41,
+              47
+            ],
+            [
+              48,
+              65
+            ]
+          ],
+          "public_note": "流程图结合时间实测和频率加权，为劳动投入比较建立口径。",
+          "public_counterexample_or_limit": "同规模样本不自动具备代表性，测量误差及分类判断仍需说明。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              21,
+              29
+            ],
+            [
+              30,
+              65
+            ]
+          ],
+          "public_note": "诊断把角色需求与流程节点连接，指出信息割裂和监控缺口。",
+          "public_counterexample_or_limit": "各节对同一问题重复较多，非增值活动也不能全部等同可消除浪费。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              66,
+              97
+            ]
+          ],
+          "public_note": "设计明确输入输出、触发条件和异常分支，并保留必要人工步骤。",
+          "public_counterexample_or_limit": "操作细节可压缩，运行样本不能替代全部流程分支的实际验证。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              90,
+              95
+            ],
+            [
+              98,
+              105
+            ]
+          ],
+          "public_note": "比较保持同一频率权重，并用运行看板公开未落实的流程问题。",
+          "public_counterexample_or_limit": "送达与回复混用，普通趋势图和排序图也不能替代统计工具验证。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              106,
+              107
+            ]
+          ],
+          "public_note": "结论对应问题和主要发现，提出从满意度走向行为表现的评价方向。",
+          "public_counterexample_or_limit": "评分均值差异不足以证明质量因果效果，劳动减少也不等于增值率提高。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ]
+          ],
+          "public_note": "相关理论与既有案例使用序号标注，提供文献追溯线索。",
+          "public_counterexample_or_limit": "部分行业论断缺少紧贴引用，二手转述需要核验原文。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              108,
+              111
+            ]
+          ],
+          "public_note": "参考文献覆盖期刊、图书和学位论文，可作为进一步检索入口。",
+          "public_counterexample_or_limit": "部分字段不足且识别文本有误，不能直接用旧书目生成新论文引用。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P13",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "72页全文文本全部顺序读完；目录、中英摘要、五章和参考文献齐备；目录所列致谢缺失，声明与封面年份不一致。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              6,
+              7
+            ]
+          ],
+          "public_note": "目录让布局、包装和生产组织三条问题线贯穿设计与实施。",
+          "public_counterexample_or_limit": "目录尾部未全部保留，历史章节和样式也不能视为现行规范。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要按问题、措施和结果展开，研究对象与主要干预方向明确。",
+          "public_counterexample_or_limit": "抽象褒词和价值宣称较多，关键收益需在正文有可追溯明细。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要覆盖中文主要内容和结果，可供双语对应检查。",
+          "public_counterexample_or_limit": "存在语法和句子碎片问题，不宜据此形成英文表达规则。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              8,
+              17
+            ]
+          ],
+          "public_note": "绪论逐步聚焦具体物流问题，并用技术路线串联研究阶段。",
+          "public_counterexample_or_limit": "泛化背景和重复意义较多，空白论断与已有研究表述存在张力。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              10,
+              15
+            ],
+            [
+              49,
+              51
+            ]
+          ],
+          "public_note": "理论部分围绕精益物流与看板展开，后续工具与问题有所衔接。",
+          "public_counterexample_or_limit": "宏观趋势和效果转述较强，部分作者与文末条目需要对应核验。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              29,
+              30
+            ],
+            [
+              38,
+              48
+            ]
+          ],
+          "public_note": "方案使用物流强度、搬运比例和看板参数，形成量化设计线索。",
+          "public_counterexample_or_limit": "参数单位及改善率算法存在待核点，模型设计不等于因果验证。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              18,
+              36
+            ]
+          ],
+          "public_note": "诊断结合工艺与仓储约束，定位堆积、跨区搬运和包装问题。",
+          "public_counterexample_or_limit": "企业宣传与分析混杂，表内合计及库存口径也需要基础复核。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              37,
+              58
+            ]
+          ],
+          "public_note": "实施说明载体、补货规则、管理责任与异常处理，具有操作层次。",
+          "public_counterexample_or_limit": "设计章节部分提前宣称实证效果，却缺少相应测量过程和来源。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              58,
+              64
+            ]
+          ],
+          "public_note": "结果与前文问题对应，使用库存和计划等业务指标比较变化。",
+          "public_counterexample_or_limit": "跨年比较未控制需求变化，成本和满意度结论也缺少独立测量。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              65,
+              66
+            ]
+          ],
+          "public_note": "结论主动说明单案例、内部数据及缺少长期跟踪的限制。",
+          "public_counterexample_or_limit": "前文广泛竞争力宣称超出局限，结论不能补成正文未证明的效果。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              8,
+              15
+            ]
+          ],
+          "public_note": "正文使用序号上标连接理论与既有案例，可沿书目追溯。",
+          "public_counterexample_or_limit": "原图可见作者与编号不匹配，须排除转述和书目错误再引用。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              67,
+              70
+            ]
+          ],
+          "public_note": "文末列出多类中英文来源，覆盖理论与相关应用研究。",
+          "public_counterexample_or_limit": "条目字段、类型及版本时间存在疑点，不能按引用数量判断可靠。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P14",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "94页全部可用文本已顺序读完。目录、中英摘要、五章、参考文献、致谢和末尾声明均在，研究核心及目录尾部无可见缺失。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_page_ranges": [
+            [
+              7,
+              8
+            ]
+          ],
+          "public_note": "目录呈现现状、仿真、布局实践和结论，研究环节层次分明。",
+          "public_counterexample_or_limit": "该样本来自不同学院，历史摘要及页眉做法不能覆盖目标模板。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_page_ranges": [
+            [
+              3,
+              4
+            ]
+          ],
+          "public_note": "摘要说明库存对象、仿真方法和工程实践的关系，研究路径明确。",
+          "public_counterexample_or_limit": "模型规划与局部试点范围应区分，不能合并写成全场已实现效果。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_page_ranges": [
+            [
+              5,
+              6
+            ]
+          ],
+          "public_note": "英文摘要延续中文的对象、方法与主要结论，保留关键术语。",
+          "public_counterexample_or_limit": "语法、标题与术语仍需校订，完成阶段也须和正文一致。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_page_ranges": [
+            [
+              9,
+              19
+            ]
+          ],
+          "public_note": "绪论将需求多样化与既有场地约束连接，明确库存调度研究方向。",
+          "public_counterexample_or_limit": "宏观数量和行业判断需独立核验，研究意义不宜提前变成结果。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_page_ranges": [
+            [
+              12,
+              16
+            ],
+            [
+              20,
+              23
+            ]
+          ],
+          "public_note": "综述比较静态计算、动态仿真与落地条件，理论说明保留必要活动。",
+          "public_counterexample_or_limit": "未做仿真不等于不可落地，部分作者与书目对应也存在疑点。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_page_ranges": [
+            [
+              38,
+              64
+            ]
+          ],
+          "public_note": "理论计算后建立输入输出明确的仿真模块，分别讨论均值与峰值。",
+          "public_counterexample_or_limit": "曲线相似不能证明准确，利用率未满也不能证明及时交付。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_page_ranges": [
+            [
+              23,
+              37
+            ]
+          ],
+          "public_note": "诊断区分工艺、流动与安全余量，联系楼层和设备约束解释问题。",
+          "public_counterexample_or_limit": "主观诊断不等于根因验证，拉动方式也不能自动消除风险准备。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_page_ranges": [
+            [
+              65,
+              85
+            ]
+          ],
+          "public_note": "方案分别描述规划、工装适配、信息流程和局部试点的调整。",
+          "public_counterexample_or_limit": "案例安全参数不构成通用规范，实施状态须逐项对应真实范围。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_page_ranges": [
+            [
+              57,
+              64
+            ],
+            [
+              75,
+              86
+            ]
+          ],
+          "public_note": "评价比较盘点、理论、仿真与实际调整，并解释差异原因。",
+          "public_counterexample_or_limit": "单位和经济性口径需要复核，局部试点不足以证明全部模型准确。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_page_ranges": [
+            [
+              87,
+              89
+            ]
+          ],
+          "public_note": "结论说明工艺、变量和备选方案的局限，提出后续迁移验证方向。",
+          "public_counterexample_or_limit": "将模拟结果称真实情况及广泛最佳实践，均可能超出证据强度。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_page_ranges": [
+            [
+              12,
+              16
+            ],
+            [
+              20,
+              23
+            ],
+            [
+              38,
+              49
+            ]
+          ],
+          "public_note": "理论与模型附近有序号引用，可以追踪研究主张的资料线索。",
+          "public_counterexample_or_limit": "正文作者与编号存在错配风险，必须回查原文后再承接相关论断。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_page_ranges": [
+            [
+              90,
+              92
+            ]
+          ],
+          "public_note": "文末兼列中文学位研究与外文论文，提供方法与案例的检索入口。",
+          "public_counterexample_or_limit": "可见重复条目和字段缺项，数量及排版整齐不能替代书目核验。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P15",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "Core research sections all present; no missing endmatter entry identified in readTOC."
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              7
+            ]
+          ],
+          "public_note": "结构将现状、两类改善和评价依次展开，便于追踪问题与措施。",
+          "public_counterexample_or_limit": "章节安排适合本研究路线，不能据此规定同校论文固定结构。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要同时交代研究对象、所用方法、主要措施和量化评价结果。",
+          "public_counterexample_or_limit": "背景和价值判断较长，结果成立范围不应被肯定语气放大。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "主要结果与中文对应，适合检查双语摘要是否表达同一项研究。",
+          "public_counterexample_or_limit": "专业术语、语法和标点仍须校对，不能以逐句翻译代替核验。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              8,
+              21
+            ]
+          ],
+          "public_note": "从研究背景逐渐落到具体生产约束及企业需要解决的问题。",
+          "public_counterexample_or_limit": "宏观意义和市场赞语多次重复，宜让具体问题尽早进入正文。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              11,
+              19
+            ],
+            [
+              36,
+              40
+            ],
+            [
+              54,
+              63
+            ]
+          ],
+          "public_note": "按分析工具组织文献，方便解释后续不同问题采用何种方法。",
+          "public_counterexample_or_limit": "逐作者罗列和通用有效性宣称较多，需要比较适用条件与差别。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              19,
+              21
+            ],
+            [
+              27,
+              31
+            ],
+            [
+              36,
+              42
+            ],
+            [
+              54,
+              60
+            ]
+          ],
+          "public_note": "将流程、公式、作业拆分与人员设备两条分析路径联系起来。",
+          "public_counterexample_or_limit": "标准时间和公式输入须追溯采集，示例或经验值不能冒充实测。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              22,
+              35
+            ]
+          ],
+          "public_note": "结合客户需求、布局和工序记录解释节拍与转换活动的约束。",
+          "public_counterexample_or_limit": "源文件存在公式输入与文字不一致，流畅说明不能替代数据核对。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              36,
+              67
+            ]
+          ],
+          "public_note": "措施具体到任务分配、工具、测试、并行活动和作业标准。",
+          "public_counterexample_or_limit": "通用方法介绍不宜重复铺陈，计划和已完成动作须统一时态。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              68,
+              78
+            ]
+          ],
+          "public_note": "以同类指标比较改善前后，并回到流程整体检查局部措施。",
+          "public_counterexample_or_limit": "转换类型和平均范围须分开，未测成本或满意度不应追加为成果。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              79,
+              80
+            ]
+          ],
+          "public_note": "结论回收主要结果，并指出技术条件与人员训练方面的后续工作。",
+          "public_counterexample_or_limit": "重复实施过程不能代替回答研究问题，肯定措辞也不能替代限制。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              8,
+              19
+            ],
+            [
+              36,
+              37
+            ],
+            [
+              54,
+              54
+            ],
+            [
+              62,
+              62
+            ]
+          ],
+          "public_note": "原理与工具介绍附近设置引文，有助于读者找到命题的出处。",
+          "public_counterexample_or_limit": "理论出处只支持方法依据，不能自动支持本研究实际实施及效果。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              81,
+              84
+            ]
+          ],
+          "public_note": "文末包含多种文献类型，便于检查正文命题与来源的对应关系。",
+          "public_counterexample_or_limit": "条目形式和归属仍有待核项，样本不能当作现行引用格式标准。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P16",
+      "context_stratum": "research_development_and_training",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "Core research sections present;printed72acknowledgements listed inTOC absent."
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              7
+            ]
+          ],
+          "public_note": "结构沿问题、工具、组织与流程方案、评价展开，并另列调查附录。",
+          "public_counterexample_or_limit": "目录列项须与实际页面逐项核对，不能仅看目录认定文件完整。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要交代改进路线和结果，便于追踪具体结论是否在正文得到支持。",
+          "public_counterexample_or_limit": "摘要与正文有结果口径不一致，不能只润色语句而略过核算。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "中英文摘要可作为交叉核对结果方向、指标与比例的一组材料。",
+          "public_counterexample_or_limit": "原文件双语结果存在不一致，应回查来源而不是择优保留。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              8,
+              17
+            ]
+          ],
+          "public_note": "研究路线把组织协作、研发流程和需求转化分开说明。",
+          "public_counterexample_or_limit": "政策背景和普遍意义篇幅较大，实际业务问题应更早出现。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              10,
+              15
+            ],
+            [
+              28,
+              42
+            ]
+          ],
+          "public_note": "工具比较为选择分析方法提供思路，能连接研发管理的不同问题。",
+          "public_counterexample_or_limit": "宽泛的中外差异和逐作者总结缺少限定，不能据此扩大研究空白。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              21,
+              23
+            ],
+            [
+              32,
+              36
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              52,
+              61
+            ],
+            [
+              67,
+              69
+            ]
+          ],
+          "public_note": "员工、需求与产品评价使用不同样本，各方法承担不同分析任务。",
+          "public_counterexample_or_limit": "不同调查不能混成一个样本，纳入规则、量表和评分者均须说明。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              18,
+              27
+            ]
+          ],
+          "public_note": "以研发阶段组织协同、评审和返工问题，能落到具体流程。",
+          "public_counterexample_or_limit": "汇总均值和原表计数有待核项，调查表出现不代表计算可靠。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              43,
+              62
+            ]
+          ],
+          "public_note": "责任、评审节点和流程事件前后对应，有助于说明改变如何发生。",
+          "public_counterexample_or_limit": "局部阶段可以变长，应说明这种取舍，不能只选择有利变化。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              63,
+              70
+            ]
+          ],
+          "public_note": "周期、成本与产品反馈分开评价，也保留部分属性未改善的结果。",
+          "public_counterexample_or_limit": "同次偏好比较不能改写成前后满意度提升，差异也不自动显著。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              71,
+              72
+            ]
+          ],
+          "public_note": "结论沿主线收束，并提出继续在后续项目中验证改进方案。",
+          "public_counterexample_or_limit": "结论数值须与正文和摘要统一，持续改进赞语不能替代具体限制。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              8,
+              15
+            ],
+            [
+              28,
+              42
+            ],
+            [
+              43,
+              48
+            ],
+            [
+              69,
+              70
+            ]
+          ],
+          "public_note": "方法和概念附近有出处，便于区分理论依据与实际案例材料。",
+          "public_counterexample_or_limit": "引文要支持邻近命题，不能用理论文献取代本案数据和实施记录。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              73,
+              75
+            ]
+          ],
+          "public_note": "来源兼有学术研究、书籍和背景资料，可检查各自承担的证据功能。",
+          "public_counterexample_or_limit": "类型与题录信息仍需核验，样本的排版异常不能升格为规则。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P17",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "五章、双语摘要、目录、参考文献、附录、致谢、课程和声明均在；27页源图旋转且越出页面，部分图内容不可读。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              5,
+              7
+            ]
+          ],
+          "public_note": "理论工具并入绪论，结构围绕生产试点的问题和改进任务组织。",
+          "public_counterexample_or_limit": "同校样本的章节数并不统一，不能把一种结构设为论文要求。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "简述对象、问题、工具与评价指标，呈现研究工作的主要路线。",
+          "public_counterexample_or_limit": "总体能力与人均效率含义不同，摘要不应省略方向不同的结果。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              4
+            ]
+          ],
+          "public_note": "英文沿用中文的主要结构，可用于检查对象、方法与指标是否对应。",
+          "public_counterexample_or_limit": "中文中宽泛的结论会被英文继承，翻译流畅不等于判断成立。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              8,
+              21
+            ]
+          ],
+          "public_note": "背景后引入具体工具、生产分析和研究方法，能形成应用研究路线。",
+          "public_counterexample_or_limit": "宏观价值和研究空白的表达偏满，应由文献比较和业务问题支持。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              10,
+              15
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "public_note": "围绕线平衡、流程图和现场管理组织工具与相关研究。",
+          "public_counterexample_or_limit": "方法名须核对实际含义，逐作者罗列不能代替适用条件比较。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              12,
+              13
+            ],
+            [
+              16,
+              21
+            ],
+            [
+              28,
+              31
+            ],
+            [
+              37,
+              48
+            ]
+          ],
+          "public_note": "说明试点选择及观察安排，用不同记录表区分动作、转换和管理负荷。",
+          "public_counterexample_or_limit": "观察工作分配只能支持相应现象，不足以直接归因人员能力。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              22,
+              35
+            ]
+          ],
+          "public_note": "先分析产品族和全线，再解释为何聚焦特定试点及其主要问题。",
+          "public_counterexample_or_limit": "现场图形本身有可读性限制，未能读取的内容应明确保留。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              36,
+              59
+            ]
+          ],
+          "public_note": "比较备选布局时考虑空间与设施限制，并说明配送系统的边界。",
+          "public_counterexample_or_limit": "可行方案与全局最优不同，不能用最优措辞覆盖未评估的备选。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              60,
+              65
+            ]
+          ],
+          "public_note": "同时呈现总体能力和人员效率的不同变化，并结合需求解释取舍。",
+          "public_counterexample_or_limit": "倍数、比例与公式存在待核项，结果表不能直接作为计算范本。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              66,
+              67
+            ]
+          ],
+          "public_note": "结论归纳主要发现，另列未改环节与后续验证的方向。",
+          "public_counterexample_or_limit": "只突出有利指标会失衡，未来扩大样本也不自动保证代表性。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              8,
+              21
+            ],
+            [
+              23,
+              29
+            ],
+            [
+              49,
+              59
+            ],
+            [
+              64,
+              65
+            ]
+          ],
+          "public_note": "工具出处与作者介绍并列出现，有助于追溯理论的引入。",
+          "public_counterexample_or_limit": "主题相近的文献不一定支持具体命题，不能凭编号认定引用充分。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              68,
+              72
+            ]
+          ],
+          "public_note": "来源覆盖工具与应用研究，能检查是否与正文讨论对象相符。",
+          "public_counterexample_or_limit": "重复条目和形式不一致均须处理，未核原文不能认定题录可靠。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P18",
+      "context_stratum": "manufacturing_and_logistics",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、六章与参考文献均在；目录未列附录或致谢，本文件止于参考文献，不能推定取得所有归档签署页。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              7
+            ]
+          ],
+          "public_note": "问题分析、策略模型与实际应用分开，层次能反映研究工作的推进。",
+          "public_counterexample_or_limit": "标题深度只是个别样本安排，其他学院的层级不能当作格式要求。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "将多类诊断问题与相应策略方向连接，便于理解方案覆盖范围。",
+          "public_counterexample_or_limit": "工具和模块罗列较多，不能代替具体发现、评价方式和限制。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文基本对应中文的问题和策略层次，便于核对术语的一致性。",
+          "public_counterexample_or_limit": "成功应用等评价需要实际证据支持，不能仅随中文肯定语气翻译。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              8,
+              13
+            ]
+          ],
+          "public_note": "从行业质量稳定需求引入企业管理问题，形成应用研究起点。",
+          "public_counterexample_or_limit": "唯一解决办法与研究稀少等强判断，需要比较证据和范围限定。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              9,
+              12
+            ],
+            [
+              14,
+              21
+            ]
+          ],
+          "public_note": "比较不同质量管理思路的联系和侧重，有助于解释工具选择。",
+          "public_counterexample_or_limit": "历史和行业概括仍须追溯来源，概念比较不能代替本案调查。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              26,
+              40
+            ],
+            [
+              53,
+              54
+            ],
+            [
+              77,
+              78
+            ],
+            [
+              87,
+              93
+            ]
+          ],
+          "public_note": "多种分析工具逐步收敛问题，能说明诊断路径与策略的联系。",
+          "public_counterexample_or_limit": "评分和追问链属于判断与解释，缺乏独立取证时不能当作因果证明。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              22,
+              40
+            ],
+            [
+              61,
+              64
+            ]
+          ],
+          "public_note": "先区分项目运作与生产流程，再按浪费、质量和信息分析问题。",
+          "public_counterexample_or_limit": "案例数据与行业结论应分开，不能由单企业材料概括所有企业。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              41,
+              60
+            ],
+            [
+              64,
+              86
+            ]
+          ],
+          "public_note": "一般策略、预期改变与实际参与者、计划和执行活动分别呈现。",
+          "public_counterexample_or_limit": "空白表单不是完成记录，预计效果也不能写成已经测得的结果。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              87,
+              96
+            ]
+          ],
+          "public_note": "评价给出样本数据与业务指标，便于检查不同证据的统计范围。",
+          "public_counterexample_or_limit": "控制限、规格限和能力解释须核准，投诉指标不能直接代表满意度。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              97,
+              98
+            ]
+          ],
+          "public_note": "结论回收工具体系与应用内容，并将跨场景应用列为后续方向。",
+          "public_counterexample_or_limit": "工具组合的应用价值不自动成为理论首创，贡献层次需谨慎表述。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              8,
+              21
+            ]
+          ],
+          "public_note": "定义和历史命题附近使用编号，读者可沿出处追踪论述。",
+          "public_counterexample_or_limit": "编号齐全不代表支持充分，具体命题与来源原文仍须核对。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              99,
+              101
+            ]
+          ],
+          "public_note": "学位论文、书籍和期刊共同构成方法与背景材料的来源。",
+          "public_counterexample_or_limit": "题名与转述的支持关系待核，年代和学院不同的样本不能替代现行规范。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P19",
+      "context_stratum": "customer_marketing_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、七章、参考文献、致谢与声明在；属于提出营销建议的研究，未实施评价不是缺章。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              8
+            ]
+          ],
+          "public_note": "外部环境、内部问题、市场选择与策略建议分开组织，路线清楚。",
+          "public_counterexample_or_limit": "框架介绍与实际章节不完全一致，目录和正文必须交叉校对。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              2,
+              3
+            ]
+          ],
+          "public_note": "摘要从问题进入分析工具、市场定位、策略建议与保障安排。",
+          "public_counterexample_or_limit": "研究主要提出建议，不能为增强摘要补造实施结果或效果数值。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文摘要对应策略提案的主要内容，可检查双语信息是否完整。",
+          "public_counterexample_or_limit": "跨页承接存在不完整疑点，应登记并核对原文件，不能自行补译。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              9,
+              14
+            ]
+          ],
+          "public_note": "从行业背景转向企业的增长问题，再说明研究对象与任务。",
+          "public_counterexample_or_limit": "竞争力和长期发展等抽象词重复较多，理论贡献不宜超过研究实际。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              15,
+              18
+            ]
+          ],
+          "public_note": "围绕环境、竞争和营销组合安排概念，能与后续分析框架对应。",
+          "public_counterexample_or_limit": "主要是理论定义，不能用教材式扩写替代研究综述和比较。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              12,
+              14
+            ],
+            [
+              43,
+              50
+            ]
+          ],
+          "public_note": "说明作者工作角色和案例、文献、调查等资料获取路径。",
+          "public_counterexample_or_limit": "调查对象和取证过程不足，内部参与经验不能自动保证客观性。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              19,
+              42
+            ]
+          ],
+          "public_note": "具体说明业务流程、客户接触环节与部门职责，再归纳营销问题。",
+          "public_counterexample_or_limit": "不同长度的期间不能直接比较，原因解释也需有独立证据。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              43,
+              60
+            ]
+          ],
+          "public_note": "提供市场选择与营销动作建议，并考虑原市场巩固和扩张次序。",
+          "public_counterexample_or_limit": "这里是方案提案而非实际实施记录，建议状态不可改写为已完成。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              58,
+              62
+            ]
+          ],
+          "public_note": "缺少实际实施效果评价，结尾将市场验证与资源优化留作后续研究。",
+          "public_counterexample_or_limit": "保障安排不是效果检验，不能由合理建议直接推成业绩提升。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              61,
+              62
+            ]
+          ],
+          "public_note": "结论回收策略与保障，并明确未来应用实践及验证的方向。",
+          "public_counterexample_or_limit": "时间和水平的自述限制偏泛，宜说明缺少哪些资料或验证环节。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              9,
+              29
+            ],
+            [
+              44,
+              59
+            ]
+          ],
+          "public_note": "数字引文与行业报告支撑概念和环境分析，可区分资料的用途。",
+          "public_counterexample_or_limit": "跨研究场景移用建议时需说明条件，引用不能自动支持因果解释。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              63,
+              64
+            ]
+          ],
+          "public_note": "文末将研究和背景来源集中列出，便于检查题名与正文关系。",
+          "public_counterexample_or_limit": "部分元数据和类型信息不完整，不能因样本来自本校而直接继承。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P20",
+      "context_stratum": "customer_marketing_operations",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、七章、参考文献与致谢声明在。正文从印刷14页起，目录页码与可见正文对应，单凭起号异常不判缺研究章。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              8
+            ]
+          ],
+          "public_note": "将策略设计、首轮实验、再实验、保障与总结分开，能呈现迭代路线。",
+          "public_counterexample_or_limit": "层级编号存在重复和错接，目录形式应核对适用模板重新生成。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              2,
+              3
+            ]
+          ],
+          "public_note": "对象、问题、分群实验和策略方向对应，呈现从诊断到试验的路线。",
+          "public_counterexample_or_limit": "整体改善和心理差异的语气偏强，结果应保留对照与测量边界。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文与中文基本同构，可逐项核对方法、观察结果和应用建议。",
+          "public_counterexample_or_limit": "中文中证据不足的结论不能被翻译进一步强化，双语均需收束。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              9,
+              14
+            ]
+          ],
+          "public_note": "说明企业资源与大型平台不同，解释为何需要适合自身的研究路径。",
+          "public_counterexample_or_limit": "经营模式新颖不能直接证明论文创新，贡献仍应落到具体研究工作。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              15,
+              28
+            ]
+          ],
+          "public_note": "国内研究按主题组织，综述后转向企业可实施的具体问题。",
+          "public_counterexample_or_limit": "概念反复总结和泛化评述较多，作者年份与题录也须交叉核对。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              13,
+              14
+            ],
+            [
+              41,
+              46
+            ],
+            [
+              51,
+              56
+            ],
+            [
+              60,
+              62
+            ]
+          ],
+          "public_note": "交代访谈、分群、素材、分配、发送安排与观察指标，增强可追踪性。",
+          "public_counterexample_or_limit": "时间锚点、送达流失与统计窗口仍不清楚，不能以方法名称保证可靠。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              29,
+              48
+            ]
+          ],
+          "public_note": "结合渠道、产品和访谈材料，逐步把研究范围收窄到可控渠道。",
+          "public_counterexample_or_limit": "成本与收益指标定义混用，销售结构也不能直接测得客户心理。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              49,
+              56
+            ],
+            [
+              60,
+              62
+            ],
+            [
+              64,
+              67
+            ]
+          ],
+          "public_note": "分群与素材映射具体，依据首轮发现的问题调整下一轮试验。",
+          "public_counterexample_or_limit": "不同因素同时变化，后续组织和系统保障也不能写成已建立事实。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              56,
+              59
+            ],
+            [
+              62,
+              65
+            ]
+          ],
+          "public_note": "轮次分开报告，并承认素材相似与样本变化对比较的影响。",
+          "public_counterexample_or_limit": "缺少对应基线且变量混杂，组间差异不能证明整体增量或心理机制。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              68,
+              69
+            ]
+          ],
+          "public_note": "结论与研究展望分开，明确单企业和特定营销渠道的适用范围。",
+          "public_counterexample_or_limit": "转化表现不能直接代表信任与忠诚，观察结论不应升格机制证明。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              18,
+              28
+            ]
+          ],
+          "public_note": "概念和综述用数字引文，图表也注明来源主体，便于追溯。",
+          "public_counterexample_or_limit": "自绘图仍需数据范围，理论引用数量不能证明实验设计适用。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              70,
+              71
+            ]
+          ],
+          "public_note": "集中列出理论与相关研究，支持核对正文转述和题录信息。",
+          "public_counterexample_or_limit": "正文年份与部分条目不一致，文献信息不全时不能直接照作规范。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    },
+    {
+      "id": "P21",
+      "context_stratum": "demand_forecasting",
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "目录、中英摘要、六章与参考文献完整可见；目录列致谢印刷75页，但参考文献印刷74页后直接是声明，未见致谢，视觉核对PDF7/84/85。"
+      },
+      "categories": [
+        {
+          "category": "toc",
+          "source_label": "目录",
+          "pdf_pages": [
+            [
+              6,
+              10
+            ]
+          ],
+          "public_note": "研究路线分成统计与机器学习两条，并单列图录和表录。",
+          "public_counterexample_or_limit": "图表编号与实际页面须核对，目录列出的章末材料并非全部可见。"
+        },
+        {
+          "category": "abstract_cn",
+          "source_label": "中文摘要",
+          "pdf_pages": [
+            [
+              3,
+              3
+            ]
+          ],
+          "public_note": "摘要涵盖对象、问题、预处理、模型与主要比较结果，路线完整。",
+          "public_counterexample_or_limit": "宏观背景和行业价值超过实验范围，量化结论须逐一追溯结果表。"
+        },
+        {
+          "category": "abstract_en",
+          "source_label": "英文摘要",
+          "pdf_pages": [
+            [
+              4,
+              5
+            ]
+          ],
+          "public_note": "英文基本对应中文研究路线，可检查模型名称和主要结论是否统一。",
+          "public_counterexample_or_limit": "专业名称与结果语气仍须校对，跨行业推广不能因翻译变得确定。"
+        },
+        {
+          "category": "introduction",
+          "source_label": "绪论",
+          "pdf_pages": [
+            [
+              11,
+              19
+            ]
+          ],
+          "public_note": "提前期、慢流、新品、促销和数据限制能转化为具体预测任务。",
+          "public_counterexample_or_limit": "普遍意义反复铺陈，未测的库存或客户结果不能写成必然收益。"
+        },
+        {
+          "category": "literature_theory",
+          "source_label": "文献理论",
+          "pdf_pages": [
+            [
+              20,
+              30
+            ]
+          ],
+          "public_note": "按模型族和需求模式组织研究，并涉及准确性与库存目标的区别。",
+          "public_counterexample_or_limit": "部分转述对象与所列题名不符，应核原文，不能仅凭主题相似引用。"
+        },
+        {
+          "category": "methods",
+          "source_label": "方法",
+          "pdf_pages": [
+            [
+              34,
+              37
+            ],
+            [
+              38,
+              45
+            ],
+            [
+              46,
+              76
+            ]
+          ],
+          "public_note": "交代抽样、过滤、日期切分、预处理、特征和参数，使路线可追踪。",
+          "public_counterexample_or_limit": "长期预测的特征可得性与时间验证未充分交代，不能只看误差表。"
+        },
+        {
+          "category": "context_diagnosis",
+          "source_label": "现状诊断",
+          "pdf_pages": [
+            [
+              31,
+              35
+            ],
+            [
+              39,
+              44
+            ]
+          ],
+          "public_note": "说明原预测公式的组成和局限，再结合不同需求模式设计方案。",
+          "public_counterexample_or_limit": "单一分布相似只支持局部代表性，管理问题也不能都归因预测。"
+        },
+        {
+          "category": "design_implementation",
+          "source_label": "方案实施",
+          "pdf_pages": [
+            [
+              35,
+              36
+            ],
+            [
+              46,
+              76
+            ]
+          ],
+          "public_note": "离线模型比较给出示例、步骤和参数，便于追踪实际研究工作。",
+          "public_counterexample_or_limit": "离线试验不等同正式系统推广，管理变革仍需过程和执行证据。"
+        },
+        {
+          "category": "evaluation_discussion",
+          "source_label": "评价讨论",
+          "pdf_pages": [
+            [
+              46,
+              55
+            ],
+            [
+              57,
+              76
+            ]
+          ],
+          "public_note": "比较原模型与基线，并考虑预测单位和计算时间之间的取舍。",
+          "public_counterexample_or_limit": "指标汇总和图例解释存在待核项，模型解释图不等于因果机制。"
+        },
+        {
+          "category": "conclusion",
+          "source_label": "结论",
+          "pdf_pages": [
+            [
+              77,
+              79
+            ]
+          ],
+          "public_note": "结论分别总结研究发现、管理启示和跨场景推广的限制。",
+          "public_counterexample_or_limit": "新增业务效果未对应前文评价设计，不能仅在结论中补上成果。"
+        },
+        {
+          "category": "in_text_citations",
+          "source_label": "文内引文",
+          "pdf_pages": [
+            [
+              11,
+              30
+            ]
+          ],
+          "public_note": "定义和方法按顺序引用，软件工具也追溯到相应文档来源。",
+          "public_counterexample_or_limit": "研究对象和机构归属须与原文一致，题名有关不代表命题获支持。"
+        },
+        {
+          "category": "references",
+          "source_label": "文末参考文献",
+          "pdf_pages": [
+            [
+              80,
+              84
+            ]
+          ],
+          "public_note": "学术原始研究与软件文档共同列出，并记录版本和访问时间。",
+          "public_counterexample_or_limit": "正文与题录仍有对应疑点，来源存在不意味着转述真实或软件行为仍适用。"
+        }
+      ],
+      "classification_note": "Evidence page locators and ranges identify observed content; categories may overlap and do not add up to unique page coverage."
+    }
+  ],
+  "institutional_language_certification": false,
+  "reference_authenticity_audit_complete": false
+}

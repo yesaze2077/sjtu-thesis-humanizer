@@ -1,161 +1,1039 @@
 {
-  "as_of": "2026-11-01",
-  "sample_count": 3,
-  "actually_read_page_count": 13,
+  "schema": "sjtu-thesis-corpus-cards/v2",
+  "date": "2026-11-01",
+  "summary": {
+    "file_count": 21,
+    "supplied_pdf_pages": 1851,
+    "extracted_and_read_text_characters": 1612639,
+    "file_pages_read_count": 21,
+    "research_core_complete_count": 20,
+    "all_TOC_endmatter_present_count": 13,
+    "structural_preflight_counts": {
+      "PASS": 19,
+      "UNAVAILABLE": 2
+    },
+    "MEM_core_complete_with_preflight_PASS": 14,
+    "completeness_unknown_ids": [
+      "P03"
+    ],
+    "selected_visual_page_checks": 185,
+    "degree_group_counts": {
+      "EMBA_auxiliary": 2,
+      "MBA_auxiliary": 3,
+      "MEM_core": 16
+    },
+    "research_core_complete_by_degree": {
+      "EMBA_auxiliary": 2,
+      "MBA_auxiliary": 2,
+      "MEM_core": 16
+    }
+  },
+  "sampling": "census of 21 local supplied PDF files; convenience corpus, no population confidence interval",
   "cards": [
     {
-      "id": "C01",
-      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
-      "sha256": "864f6e16b011a17ea2bec9327cecfdb5f7c03c4dee3a50f3c329a23f4256e47b",
-      "read_pdf_ordinal_pages": [
-        26,
-        48,
-        75
+      "id": "P01",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "f481799e7188837531a24f397ffbf368516917965d08564b666f65454d0769ff",
+      "pdf_pages": 68,
+      "text_characters": 55063,
+      "context_stratum": "laboratory_operations",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1中文封面；PDF2英文封面学位名称另列",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "original_pdf_embedded_text",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          68
+        ]
       ],
-      "read_method": "AI visual reading of page images rendered from original PDF in this run",
-      "full_thesis_read": false,
-      "text_or_images_redistributed": false,
-      "not_normative": true,
-      "structural_preflight": {
-        "verdict": "PASS",
-        "scope": "structure_only_not_content_or_visual_certification"
-      }
-    },
-    {
-      "id": "C02",
-      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
-      "sha256": "695e8206affd0070ad81ab56812f522e6e4c0dcdcd2679f8c4575bfe33e6d6a9",
-      "read_pdf_ordinal_pages": [
-        31,
+      "visual_checked_pdf_pages": [
+        3,
+        9,
         43,
-        74,
-        76,
-        77,
-        78
+        64
       ],
-      "read_method": "AI visual reading of page images rendered from original PDF in this run",
-      "full_thesis_read": false,
-      "text_or_images_redistributed": false,
-      "not_normative": true,
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录列有的研究主体与参考文献均存在；未列致谢/声明，不能据此判本文件缺页。"
+      },
       "structural_preflight": {
-        "verdict": "PASS",
-        "scope": "structure_only_not_content_or_visual_certification"
-      }
+        "verdict": "UNAVAILABLE",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": [
+          "trailing-data: 189 bytes after the final %%EOF include non-whitespace content (possible truncated incremental update)",
+          "encrypted: preflight cannot verify an encrypted document"
+        ]
+      },
+      "alternative_read_check": {
+        "id": "P01",
+        "native_reader": "PDFium",
+        "page_count": 68,
+        "matches_independent_PdfReader_inventory": true,
+        "structural_preflight_verdict": "UNAVAILABLE",
+        "scope": "alternative page-count check plus recorded visual reading; does not turn unavailable preflight into PASS",
+        "original_modified": false
+      },
+      "originals_redistributed": false
     },
     {
-      "id": "C03",
-      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
-      "sha256": "15ebe95499646e114739836e62abb1940bda934c0ed9e036326faa04f47cc1df",
-      "read_pdf_ordinal_pages": [
+      "id": "P02",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "d2313e410c27da645f4f26ff5ddf3a137ca0f2007bc1b62bd9f5aab91aa3f0fc",
+      "pdf_pages": 129,
+      "text_characters": 140968,
+      "context_stratum": "laboratory_operations",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1中文封面；PDF2英文封面学位名称另列",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "reused_verified_local_offline_OCR_page_cache",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          129
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        4,
+        7,
+        49,
+        80,
+        116,
+        121
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "中英摘要、目录、七章、参考文献、附录、致谢、成果页均存在；末页另附声明。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P03",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "864f6e16b011a17ea2bec9327cecfdb5f7c03c4dee3a50f3c329a23f4256e47b",
+      "pdf_pages": 88,
+      "text_characters": 91263,
+      "context_stratum": "laboratory_operations",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2封面",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "reused_verified_local_offline_OCR_page_cache",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          88
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        6,
+        38,
+        60,
+        61,
+        67,
+        68,
+        80
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": null,
+        "note": "可见目录只到6.2，参考文献/附录/课程成果/声明实际存在；后置印刷79页不在文件，内容未知，不把可用文件读完等同全原书无缺页。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P04",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "018fc6b6a47eb890e2b11fc94efaf1a9577ab64b943b4d872544cecc342957de",
+      "pdf_pages": 66,
+      "text_characters": 57882,
+      "context_stratum": "customer_marketing_operations",
+      "degree_group": "MBA_auxiliary",
+      "source_identity": {
+        "institution_as_read": "上海交通大学安泰经济与管理学院",
+        "degree_type_as_read": "工商管理（MBA）",
+        "locator": "PDF1封面；PDF65致谢另自述MBA",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          66
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        1,
+        3,
+        7,
+        17,
+        52,
+        53,
+        64
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录所列七章和参考文献均在，另有致谢/声明。方法有数据和调查但非独立成章。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P05",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "16b71f8236195e24c176684a83684f0accf7395cfd97c4df11b17ad8977876df",
+      "pdf_pages": 58,
+      "text_characters": 48201,
+      "context_stratum": "customer_marketing_operations",
+      "degree_group": "MBA_auxiliary",
+      "source_identity": {
+        "institution_as_read": "上海交通大学安泰经济与管理学院",
+        "degree_type_as_read": "工商管理（MBA）",
+        "locator": "PDF1封面",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          58
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        1,
+        2,
+        9,
+        19,
+        44,
+        58
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": false,
+        "all_TOC_endmatter_present": false,
+        "note": "缺目录第6—8章、结论、参考文献和致谢。不是OCR漏读，PDF最后物理页58确为第5章小结。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P06",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "b2401581ed66c2b1b540115f909b8f4f73eba55481735ba3710495d4bf4770b6",
+      "pdf_pages": 97,
+      "text_characters": 68435,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "EMBA_auxiliary",
+      "source_identity": {
+        "institution_as_read": "上海交通大学安泰经济与管理学院",
+        "degree_type_as_read": "工商管理（EMBA）",
+        "locator": "PDF1封面；正文页眉",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          97
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        1,
+        3,
+        7,
+        12,
+        72,
+        94
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "结构核心完整与效果验证充分性分开；评价章实际是评价机制设计。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P07",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "2b07128f166ac87d24d42408cc2b9cbdd51e81700716ca871caa29761f96ea05",
+      "pdf_pages": 150,
+      "text_characters": 128960,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学机械与动力工程学院",
+        "degree_type_as_read": "工程管理硕士；Master of Engineering Management",
+        "locator": "PDF1—2封面与英文题名页",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          150
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        1,
+        3,
+        6,
         14,
-        24,
+        42,
+        43,
+        80,
+        109,
+        137,
+        142
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "来源结构核心完整；全文读取完成不认证所有测算、引文和实施声明为真。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P08",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "c124b1685148a1ca7854392cd6a878c648b48a548636e48c8582116d3ff20d9a",
+      "pdf_pages": 98,
+      "text_characters": 82571,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          98
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        6,
+        13,
+        31,
+        50,
+        76,
+        83,
+        88
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、五章主体、参考文献、四附录、致谢、课程说明及声明均可见；非所有图表算术审核。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P09",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "c50613cae340f1caf445450205f4effb029393bad20bd029112128230034ec71",
+      "pdf_pages": 83,
+      "text_characters": 60825,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          83
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        6,
+        12,
+        65,
+        67,
+        68,
+        77
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录所列研究主体和尾部可见，无缺章缺页迹象；不代表逐条引文或全部算术审核。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P10",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "045f27e8114e4e32b79738faf1f1fb29edb070e785d0895a745b66da4f671247",
+      "pdf_pages": 80,
+      "text_characters": 67207,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        8,
+        19,
+        62,
+        64,
         66,
+        79
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "文件80页均读；中英摘要、六章主体和参考文献均在，研究核心完整；目录致谢印刷71页在文件中未见（参考文献70后接课程72），尾部不全。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P11",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "695e8206affd0070ad81ab56812f522e6e4c0dcdcd2679f8c4575bfe33e6d6a9",
+      "pdf_pages": 86,
+      "text_characters": 77293,
+      "context_stratum": "research_development_and_training",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "mixed_cache_with_Vision_recovery",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        5,
+        7,
+        15,
+        29,
+        74,
+        79
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "文件86页已全部读完。中英摘要、目录、五章、参考文献和附录均在；目录所列印刷77页致谢及78页攻读期间论文不在本文件中。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P12",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "15ebe95499646e114739836e62abb1940bda934c0ed9e036326faa04f47cc1df",
+      "pdf_pages": 113,
+      "text_characters": 122192,
+      "context_stratum": "research_development_and_training",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "reused_verified_local_offline_OCR_page_cache",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          113
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        19,
+        47,
+        91,
+        94,
+        101,
+        104,
+        109
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "113页全部可用文本已顺序读完；目录、中英摘要、六章、参考文献完整可见；目录所列致谢页未在文件中提供。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P13",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "b1e41ac5523f29d398fa29242c6375706d6d99d564e566a8ed6f049fa3dc6983",
+      "pdf_pages": 72,
+      "text_characters": 59452,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          72
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        5,
+        7,
+        14,
+        20,
+        42,
+        43,
+        46,
+        63,
+        68
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "72页全文文本全部顺序读完；目录、中英摘要、五章和参考文献齐备；目录所列致谢缺失，声明与封面年份不一致。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P14",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "f20dbb9fcd9103485be53c6d808bdf29c95f50b57212192b5299868d40593320",
+      "pdf_pages": 94,
+      "text_characters": 72851,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士专业学位",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          94
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        14,
+        38,
+        55,
+        59,
+        60,
+        61,
+        77,
+        83,
+        85,
+        91
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "94页全部可用文本已顺序读完。目录、中英摘要、五章、参考文献、致谢和末尾声明均在，研究核心及目录尾部无可见缺失。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P15",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "90ab2a00688802804f723b7fda96ff22a27110e119e0d5adc3427dfeb93b05aa",
+      "pdf_pages": 86,
+      "text_characters": 80090,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        6,
+        27,
+        30,
+        50,
+        81
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "Core research sections all present; no missing endmatter entry identified in readTOC."
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P16",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "9fd525423e3670d6f8eb2f00b653679a7d4da0bc5c637ec56d24d5a722dba013",
+      "pdf_pages": 80,
+      "text_characters": 68216,
+      "context_stratum": "research_development_and_training",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        5,
+        6,
+        22,
+        61,
+        64,
+        68,
         73
       ],
-      "read_method": "AI visual reading of page images rendered from original PDF in this run",
-      "full_thesis_read": false,
-      "text_or_images_redistributed": false,
-      "not_normative": true,
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "Core research sections present;printed72acknowledgements listed inTOC absent."
+      },
       "structural_preflight": {
         "verdict": "PASS",
-        "scope": "structure_only_not_content_or_visual_certification"
-      }
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P17",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "3379d3e525bd2c1a44292a29b695d43c639222bd218586c5ff0805dfb34e163c",
+      "pdf_pages": 78,
+      "text_characters": 59187,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          78
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        5,
+        13,
+        27,
+        40,
+        44,
+        61,
+        62,
+        63,
+        68
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "五章、双语摘要、目录、参考文献、附录、致谢、课程和声明均在；27页源图旋转且越出页面，部分图内容不可读。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P18",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "9fd8ce88cec31589703a514fee15a99c10f554f804389cca44d97a5244865782",
+      "pdf_pages": 101,
+      "text_characters": 94764,
+      "context_stratum": "manufacturing_and_logistics",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理硕士",
+        "locator": "PDF1-2，材料科学与工程学院",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "original_pdf_embedded_text",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          101
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        6,
+        27,
+        28,
+        62,
+        87,
+        89,
+        93,
+        99
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、六章与参考文献均在；目录未列附录或致谢，本文件止于参考文献，不能推定取得所有归档签署页。"
+      },
+      "structural_preflight": {
+        "verdict": "UNAVAILABLE",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": [
+          "trailing-data: 189 bytes after the final %%EOF include non-whitespace content (possible truncated incremental update)",
+          "encrypted: preflight cannot verify an encrypted document"
+        ]
+      },
+      "alternative_read_check": {
+        "id": "P18",
+        "native_reader": "PDFium",
+        "page_count": 101,
+        "matches_independent_PdfReader_inventory": true,
+        "structural_preflight_verdict": "UNAVAILABLE",
+        "scope": "alternative page-count check plus recorded visual reading; does not turn unavailable preflight into PASS",
+        "original_modified": false
+      },
+      "originals_redistributed": false
+    },
+    {
+      "id": "P19",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "9dc98765d96c95d6db642bed0df351aa760a21dd5e106814ca2b7489b61806eb",
+      "pdf_pages": 66,
+      "text_characters": 46879,
+      "context_stratum": "customer_marketing_operations",
+      "degree_group": "MBA_auxiliary",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工商管理（MBA）",
+        "locator": "PDF1封面及正文页眉",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          66
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        2,
+        5,
+        6,
+        13,
+        38,
+        54,
+        59,
+        64,
+        66
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、七章、参考文献、致谢与声明在；属于提出营销建议的研究，未实施评价不是缺章。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P20",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "a4b52fd90bb93b9bc992b73c4da508c476ae4dee7d2f7db2a0d6f36df8e0bca9",
+      "pdf_pages": 73,
+      "text_characters": 54524,
+      "context_stratum": "customer_marketing_operations",
+      "degree_group": "EMBA_auxiliary",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工商管理（EMBA）",
+        "locator": "PDF1封面及正文页眉",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          73
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        2,
+        6,
+        37,
+        39,
+        53,
+        56,
+        57,
+        63,
+        70,
+        73
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": true,
+        "note": "目录、中英摘要、七章、参考文献与致谢声明在。正文从印刷14页起，目录页码与可见正文对应，单凭起号异常不判缺研究章。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
+    },
+    {
+      "id": "P21",
+      "source_kind": "user_supplied_SJTU_reference_thesis_corpus",
+      "sha256": "dff1b0d420eb6d8387290f3d1cf20e04e99dee31f24efd52a44da5856a3e3755",
+      "pdf_pages": 85,
+      "text_characters": 75816,
+      "context_stratum": "demand_forecasting",
+      "degree_group": "MEM_core",
+      "source_identity": {
+        "institution_as_read": "上海交通大学",
+        "degree_type_as_read": "工程管理，专业型硕士",
+        "locator": "PDF1-2，中美物流研究院",
+        "confirmed_from_actual_text": true
+      },
+      "extraction_method": "local_Apple_Vision_accurate_zh_Hans_en_US_2.1x",
+      "actual_AI_read_ranges": [
+        [
+          1,
+          85
+        ]
+      ],
+      "visual_checked_pdf_pages": [
+        3,
+        7,
+        37,
+        45,
+        46,
+        51,
+        56,
+        62,
+        72,
+        73,
+        74,
+        78,
+        80,
+        84,
+        85
+      ],
+      "read_scope": "AI reading of all supplied page text in order plus selected original-page images; not human reading or complete arithmetic/source audit",
+      "completeness": {
+        "file_pages_read": true,
+        "research_core_complete": true,
+        "all_TOC_endmatter_present": false,
+        "note": "目录、中英摘要、六章与参考文献完整可见；目录列致谢印刷75页，但参考文献印刷74页后直接是声明，未见致谢，视觉核对PDF7/84/85。"
+      },
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_quality_certification",
+        "warnings": []
+      },
+      "alternative_read_check": null,
+      "originals_redistributed": false
     }
-  ],
-  "schema": "sjtu-thesis-corpus-cards/v1",
-  "selection_warning": "Limited genre references; not normative institutional language requirements or an author style fingerprint.",
-  "rule_evidence": [
-    {
-      "id": "C-R01",
-      "rule": "参与者、职责和具体动作先行",
-      "locators": [
-        "C03:PDF24"
-      ]
-    },
-    {
-      "id": "C-R02",
-      "rule": "工具名称对应实际取消、合并、重排或新增活动",
-      "locators": [
-        "C02:PDF43"
-      ]
-    },
-    {
-      "id": "C-R03",
-      "rule": "指标定义与结果评价前后对应",
-      "locators": [
-        "C02:PDF31",
-        "C02:PDF74"
-      ]
-    },
-    {
-      "id": "C-R04",
-      "rule": "方案回应已诊断问题",
-      "locators": [
-        "C03:PDF66"
-      ]
-    },
-    {
-      "id": "C-R05",
-      "rule": "图前引入问题，图后解释关系与实施",
-      "locators": [
-        "C01:PDF48",
-        "C03:PDF14"
-      ]
-    },
-    {
-      "id": "C-R06",
-      "rule": "真实并列关系的列表和序号保留",
-      "locators": [
-        "C03:PDF24",
-        "C02:PDF74"
-      ]
-    },
-    {
-      "id": "C-R07",
-      "rule": "管理问题落在具体流程障碍，根因强度另行核对",
-      "locators": [
-        "C02:PDF31",
-        "C01:PDF26"
-      ]
-    },
-    {
-      "id": "C-R08",
-      "rule": "比较保留前后值与量纲，计算措辞独立核验",
-      "locators": [
-        "C02:PDF74"
-      ]
-    },
-    {
-      "id": "C-R09",
-      "rule": "保留尚未达到参照水平的结果",
-      "locators": [
-        "C02:PDF74"
-      ]
-    },
-    {
-      "id": "C-R10",
-      "rule": "结论概括具体管理认识",
-      "locators": [
-        "C02:PDF76"
-      ]
-    },
-    {
-      "id": "C-R11",
-      "rule": "展望针对实际未完成工作",
-      "locators": [
-        "C02:PDF77"
-      ]
-    },
-    {
-      "id": "C-R12",
-      "rule": "选择性借鉴，样本重复、拔高和统计表达疑点不复制",
-      "locators": [
-        "C03:PDF73",
-        "C01:PDF48",
-        "C01:PDF75",
-        "C02:PDF74"
-      ]
-    }
-  ],
-  "independent_quality_principles": "Causal validity, citation fidelity, AI disclosure and privacy are separate quality constraints, not empirical findings proved by these sample pages."
+  ]
 }

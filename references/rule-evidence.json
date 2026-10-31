@@ -1,0 +1,3748 @@
+{
+  "schema": "sjtu-thesis-rule-evidence/v1",
+  "date": "2026-11-01",
+  "protocol_sha256": "72d6a4b07122dfeca2517a49a59f304ea08e46e0d8c9f2c8959c4ea26ebd2313",
+  "derivation_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14"
+  ],
+  "independent_check_ids": [
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21"
+  ],
+  "independence_scope": "本组依据原始文件逐页独立阅读，未读取其他组审查、新版skill模块或冻结候选规则内容。以下规则是本组观察，不是对预置规则的盲目确认。",
+  "reading_method": "all supplied page text in order plus selected original-page images; no human reading attestation",
+  "promotion_policy": "At least three structurally checked, core-complete MEM papers and two context strata for a broad corpus-observation promotion; quality/integrity constraints and institutional rules are sourced separately, not decided by a vote. This is an editorial criterion, not a confidence interval.",
+  "rules": [
+    {
+      "id": "R01",
+      "rule": "对象、参与者与实际行为明确，再展开抽象概念",
+      "basis": "corpus_observation",
+      "status": "cross_context_observation_supported",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              23,
+              31
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              27,
+              36
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              9,
+              10
+            ],
+            [
+              19,
+              22
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              40,
+              57
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              102,
+              114
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P03",
+          "pdf_page_ranges": [
+            [
+              47,
+              50
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              93,
+              102
+            ],
+            [
+              112,
+              125
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              27,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              31,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              24,
+              30
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              29,
+              38
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              30,
+              37
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              50,
+              51
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              55,
+              66
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              69,
+              89
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              51,
+              58
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 9,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P03",
+        "P07",
+        "P08",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ],
+            [
+              64,
+              66
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_with_limits",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              23,
+              27
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              22,
+              28,
+              29,
+              30,
+              31,
+              33,
+              34,
+              35
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              31,
+              32,
+              35,
+              36,
+              37,
+              40,
+              41
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              41,
+              42,
+              47,
+              48
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              15,
+              31,
+              32,
+              34,
+              35,
+              40
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P15",
+            "pdf_pages": [
+              39,
+              41,
+              45,
+              50,
+              54,
+              67,
+              74
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              64
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              49,
+              50,
+              53,
+              60,
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              39,
+              40,
+              43,
+              64,
+              65,
+              66,
+              67,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              53,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "不是句式配额；保留解释研究所需的概念和背景。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R02",
+      "rule": "方法对应真实材料、操作步骤及适用条件",
+      "basis": "corpus_observation",
+      "status": "cross_context_observation_supported",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              33,
+              35
+            ],
+            [
+              76,
+              82
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              19,
+              22
+            ],
+            [
+              78,
+              81
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              24,
+              26
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              54,
+              66
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              19,
+              19
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              38,
+              40
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 6,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P07",
+        "P08",
+        "P09",
+        "P12",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              16,
+              18
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              80,
+              82
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              18,
+              19
+            ],
+            [
+              52,
+              58
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              65,
+              65
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              46,
+              47
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              59,
+              61
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_with_limits",
+        "evidence": [
+          {
+            "id": "P16",
+            "pdf_pages": [
+              21,
+              34,
+              67,
+              68,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              28,
+              29,
+              30,
+              31
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              60,
+              68,
+              73,
+              76,
+              77
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              42,
+              43,
+              55,
+              56
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              38,
+              39,
+              40,
+              41
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              40,
+              49,
+              50,
+              53
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              11,
+              48,
+              50
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              15,
+              22,
+              35,
+              36,
+              40
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              60,
+              61,
+              62
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              46,
+              47,
+              49,
+              51,
+              53,
+              54,
+              56,
+              63,
+              64,
+              70,
+              71
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "有方法名称或程序说明不等于实际执行、参数正确或研究有效。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R03",
+      "rule": "指标定义、数据范围与结果口径一致",
+      "basis": "corpus_observation",
+      "status": "cross_context_observation_supported",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              40,
+              44
+            ],
+            [
+              73,
+              75
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              78,
+              80
+            ],
+            [
+              105,
+              110
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              83,
+              86
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              31,
+              34
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              99,
+              102
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              76,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 6,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P07",
+        "P08",
+        "P11",
+        "P12",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P05",
+          "pdf_page_ranges": [
+            [
+              40,
+              44
+            ],
+            [
+              57,
+              57
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              42,
+              43
+            ],
+            [
+              109,
+              109
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              83,
+              83
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              74,
+              74
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              42,
+              43
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              55,
+              61
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_and_counterexamples_found",
+        "evidence": [
+          {
+            "id": "P16",
+            "pdf_pages": [
+              21,
+              34,
+              67,
+              68,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              28,
+              29,
+              30,
+              31
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              60,
+              68,
+              73,
+              76,
+              77
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              42,
+              43,
+              55,
+              56
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              38,
+              39,
+              40,
+              41
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P15",
+            "pdf_pages": [
+              33,
+              54,
+              72,
+              73
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              54,
+              64,
+              68
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              59,
+              63,
+              64
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              50,
+              51,
+              54
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "只提炼定义和回溯做法，不继承源文件中的计算矛盾。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R04",
+      "rule": "方案回应已识别问题，交代实际运行安排",
+      "basis": "corpus_observation",
+      "status": "cross_context_observation_supported",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              40,
+              57
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              102,
+              114
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P03",
+          "pdf_page_ranges": [
+            [
+              47,
+              50
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              93,
+              102
+            ],
+            [
+              112,
+              125
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              27,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              31,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              24,
+              30
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              29,
+              38
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              30,
+              37
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              50,
+              51
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              55,
+              66
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              69,
+              89
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              51,
+              58
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 9,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P03",
+        "P07",
+        "P08",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              50,
+              58
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              38,
+              40
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_with_state_limits",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              39,
+              41,
+              45,
+              50,
+              54,
+              67,
+              74
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              64
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              49,
+              50,
+              53,
+              60,
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              39,
+              40,
+              43,
+              64,
+              65,
+              66,
+              67,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              53,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "提案角色安排、流程图和制度文本不能自动当作已实施成效。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R05",
+      "rule": "图表由正文引入并解释其主要关系",
+      "basis": "editorial_quality_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P03",
+          "pdf_page_ranges": [
+            [
+              71,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              24,
+              29
+            ],
+            [
+              41,
+              47
+            ],
+            [
+              48,
+              65
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 2,
+      "strict_complete_MEM_support_ids": [
+        "P03",
+        "P12"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": false,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              23,
+              23
+            ],
+            [
+              30,
+              30
+            ],
+            [
+              59,
+              59
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              116,
+              116
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P03",
+          "pdf_page_ranges": [
+            [
+              60,
+              61
+            ],
+            [
+              67,
+              68
+            ],
+            [
+              75,
+              75
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P04",
+          "pdf_page_ranges": [
+            [
+              52,
+              53
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              42,
+              43
+            ],
+            [
+              109,
+              109
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "not_separately_tested_as_a_standalone_rule"
+      },
+      "interpretation_limit": "两项插图说明作为示例；不以有限正向例证声称所有样本均体现此写法。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R06",
+      "rule": "真实列表与连接关系按内容保留，不机械去排比",
+      "basis": "contextual_editing_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [],
+      "distinct_paper_count": 0,
+      "strict_complete_MEM_support_ids": [],
+      "strict_contexts": [],
+      "editorial_3_paper_2_context_threshold_met": false,
+      "counterexamples_or_limits_locators": [],
+      "independent_group_check": {
+        "status": "not_separately_tested_as_a_standalone_rule"
+      },
+      "interpretation_limit": "沿用Humanizer-zh的上下文编辑边界，不能伪装成由本轮语料频率证实。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R07",
+      "rule": "管理问题落在具体流程障碍和证据上",
+      "basis": "corpus_observation",
+      "status": "cross_context_observation_supported",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              23,
+              31
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              27,
+              36
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              9,
+              10
+            ],
+            [
+              19,
+              22
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              27,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              31,
+              39
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              24,
+              30
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              29,
+              38
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              30,
+              37
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 8,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P07",
+        "P08",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ],
+            [
+              64,
+              66
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              8,
+              18
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              21,
+              29
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_with_limits",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              23,
+              27
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              22,
+              28,
+              29,
+              30,
+              31,
+              33,
+              34,
+              35
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              31,
+              32,
+              35,
+              36,
+              37,
+              40,
+              41
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              41,
+              42,
+              47,
+              48
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              15,
+              31,
+              32,
+              34,
+              35,
+              40
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P15",
+            "pdf_pages": [
+              39,
+              41,
+              45,
+              50,
+              54,
+              67,
+              74
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              64
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              49,
+              50,
+              53,
+              60,
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              39,
+              40,
+              43,
+              64,
+              65,
+              66,
+              67,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              53,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "现象、问题及候选原因分开，追问链本身不证明根因。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R08",
+      "rule": "比较与实施状态保持单位、对象、时间及证据强度",
+      "basis": "independent_research_quality_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              102,
+              114
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              93,
+              94
+            ],
+            [
+              132,
+              134
+            ],
+            [
+              140,
+              141
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              102,
+              118
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              103,
+              111
+            ],
+            [
+              129,
+              138
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              83,
+              86
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              31,
+              34
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              99,
+              102
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              76,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              54,
+              61
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              90,
+              92
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              77,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              83,
+              85
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 7,
+      "strict_complete_MEM_support_ids": [
+        "P02",
+        "P07",
+        "P08",
+        "P09",
+        "P11",
+        "P12",
+        "P14"
+      ],
+      "strict_contexts": [
+        "laboratory_operations",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              57,
+              60
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P04",
+          "pdf_page_ranges": [
+            [
+              58,
+              59
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              71,
+              75
+            ],
+            [
+              84,
+              87
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              120,
+              121
+            ],
+            [
+              137,
+              138
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              73,
+              74
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              74,
+              74
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              87,
+              88
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_and_counterexamples_found",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              33,
+              54,
+              72,
+              73
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              54,
+              64,
+              68
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              59,
+              63,
+              64
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              50,
+              51,
+              54
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              67,
+              68,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              29,
+              30,
+              31,
+              37,
+              62,
+              93
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              56,
+              58,
+              59,
+              63,
+              64,
+              68
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              43,
+              67,
+              68,
+              69,
+              72,
+              73,
+              74,
+              78
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ],
+        "counterexamples": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              33,
+              54,
+              72,
+              73
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              67,
+              68,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              38
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              56,
+              63,
+              64
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              46,
+              51,
+              57,
+              72
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              28,
+              29,
+              30,
+              31,
+              37
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              35,
+              38,
+              40,
+              58,
+              59,
+              64
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              43,
+              66,
+              67,
+              68,
+              69,
+              72,
+              73,
+              74
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P15",
+            "pdf_pages": [
+              69,
+              70,
+              71,
+              75
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              93
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              37,
+              58,
+              59,
+              64,
+              68
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              78
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "这是证据保真要求，不由多数论文是否做到来决定，也不等于已复算所有模型。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R09",
+      "rule": "保留不利结果、局部取舍与未达目标的信息",
+      "basis": "independent_research_quality_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              90,
+              92
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_pages": [
+            33,
+            54,
+            72,
+            73
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            54,
+            64,
+            68
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            61,
+            62,
+            63
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            59,
+            63,
+            64
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            50,
+            51,
+            54
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 6,
+      "strict_complete_MEM_support_ids": [
+        "P12",
+        "P15",
+        "P16",
+        "P17",
+        "P21"
+      ],
+      "strict_contexts": [
+        "demand_forecasting",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P15",
+          "pdf_pages": [
+            33,
+            54,
+            72,
+            73
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            67,
+            68,
+            69
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            61,
+            62,
+            63
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P19",
+          "pdf_pages": [
+            38
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            56,
+            63,
+            64
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            46,
+            51,
+            57,
+            72
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_pages": [
+            69,
+            70,
+            71,
+            75
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P18",
+          "pdf_pages": [
+            93
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            37,
+            58,
+            59,
+            64,
+            68
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            78
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "explicit_tradeoff_examples_and_limits",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              33,
+              54,
+              72,
+              73
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              54,
+              64,
+              68
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              61,
+              62,
+              63
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              59,
+              63,
+              64
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              50,
+              51,
+              54
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "摘要保留影响解释的关键不利信息，不要求逐项复制所有表格数字。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R10",
+      "rule": "结论回应研究问题并概括具体、有条件的认识",
+      "basis": "corpus_observation",
+      "status": "conditional_observation",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P04",
+          "pdf_page_ranges": [
+            [
+              63,
+              63
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              140,
+              141
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              75,
+              76
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              65,
+              66
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              88,
+              89
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 5,
+      "strict_complete_MEM_support_ids": [
+        "P07",
+        "P09",
+        "P13",
+        "P14"
+      ],
+      "strict_contexts": [
+        "manufacturing_and_logistics"
+      ],
+      "editorial_3_paper_2_context_threshold_met": false,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              61,
+              62
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P05",
+          "pdf_page_ranges": [
+            [
+              2,
+              3
+            ],
+            [
+              58,
+              58
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ],
+            [
+              139,
+              140
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              74,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              104,
+              107
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              63,
+              64
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "supported_with_limits",
+        "evidence": [
+          {
+            "id": "P19",
+            "pdf_pages": [
+              61,
+              62
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              66,
+              67,
+              68,
+              69
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              77,
+              78,
+              79
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "提案、离线分析、真实运行和外推要分开；不新增正文没有的收益。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R11",
+      "rule": "展望指向实际未完成的验证或分析",
+      "basis": "editorial_quality_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [
+        {
+          "id": "P11",
+          "pdf_pages": [
+            77
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_page_ranges": [
+            [
+              79,
+              80
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            79
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "distinct_paper_count": 3,
+      "strict_complete_MEM_support_ids": [
+        "P11",
+        "P15",
+        "P21"
+      ],
+      "strict_contexts": [
+        "demand_forecasting",
+        "manufacturing_and_logistics",
+        "research_development_and_training"
+      ],
+      "editorial_3_paper_2_context_threshold_met": true,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              61,
+              62
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P05",
+          "pdf_page_ranges": [
+            [
+              2,
+              3
+            ],
+            [
+              58,
+              58
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              3,
+              3
+            ],
+            [
+              139,
+              140
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              74,
+              77
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              104,
+              107
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P13",
+          "pdf_page_ranges": [
+            [
+              63,
+              64
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "scope_and_completion_limits_found",
+        "evidence": [
+          {
+            "id": "P19",
+            "pdf_pages": [
+              61,
+              62
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              66,
+              67,
+              68,
+              69
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              77,
+              78,
+              79
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "具体例证支持有条件展望，不据此宣称单一标准结尾或学校要求。",
+      "institutional_mandate": false
+    },
+    {
+      "id": "R12",
+      "rule": "本校样本中的套话、错误和过强结论选择性舍弃",
+      "basis": "negative_evidence_and_quality_constraint",
+      "status": "independent_quality_or_editing_constraint",
+      "supporting_or_illustrative_evidence": [],
+      "distinct_paper_count": 0,
+      "strict_complete_MEM_support_ids": [],
+      "strict_contexts": [],
+      "editorial_3_paper_2_context_threshold_met": false,
+      "counterexamples_or_limits_locators": [
+        {
+          "id": "P01",
+          "pdf_page_ranges": [
+            [
+              23,
+              23
+            ],
+            [
+              30,
+              30
+            ],
+            [
+              59,
+              59
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P02",
+          "pdf_page_ranges": [
+            [
+              116,
+              116
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P03",
+          "pdf_page_ranges": [
+            [
+              60,
+              61
+            ],
+            [
+              67,
+              68
+            ],
+            [
+              75,
+              75
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P04",
+          "pdf_page_ranges": [
+            [
+              52,
+              53
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              42,
+              43
+            ],
+            [
+              109,
+              109
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P04",
+          "pdf_page_ranges": [
+            [
+              24,
+              28
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P05",
+          "pdf_page_ranges": [
+            [
+              33,
+              38
+            ]
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              21,
+              32
+            ],
+            [
+              64,
+              91
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_pages": [
+            8,
+            11,
+            12,
+            53,
+            67,
+            78
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            8,
+            9,
+            70
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            8,
+            9,
+            21,
+            66
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P18",
+          "pdf_pages": [
+            95,
+            96,
+            97
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P19",
+          "pdf_pages": [
+            10,
+            11,
+            51,
+            52
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            19,
+            21,
+            22,
+            23,
+            24
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            79
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_pages": [
+            27,
+            30,
+            49,
+            50
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            22,
+            60,
+            61
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            40,
+            44,
+            61,
+            62,
+            66
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P18",
+          "pdf_pages": [
+            62,
+            87,
+            89,
+            90,
+            93
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "UNAVAILABLE"
+        },
+        {
+          "id": "P19",
+          "pdf_pages": [
+            13,
+            59
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            6,
+            37,
+            53,
+            62,
+            63
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            45,
+            46,
+            51,
+            56,
+            62,
+            73,
+            74
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "independent_group_check": {
+        "status": "substantial_negative_examples",
+        "evidence": [
+          {
+            "id": "P15",
+            "pdf_pages": [
+              8,
+              11,
+              12,
+              53,
+              67,
+              78
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              8,
+              9,
+              70
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              8,
+              9,
+              21,
+              66
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              95,
+              96,
+              97
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              10,
+              11,
+              51,
+              52
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              19,
+              21,
+              22,
+              23,
+              24
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              11,
+              12,
+              13,
+              16,
+              17,
+              18,
+              79
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P15",
+            "pdf_pages": [
+              27,
+              30,
+              49,
+              50
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P16",
+            "pdf_pages": [
+              22,
+              60,
+              61
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P17",
+            "pdf_pages": [
+              40,
+              44,
+              61,
+              62,
+              66
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P18",
+            "pdf_pages": [
+              62,
+              87,
+              89,
+              90,
+              93
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "UNAVAILABLE"
+          },
+          {
+            "id": "P19",
+            "pdf_pages": [
+              13,
+              59
+            ],
+            "sample_role": "MBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P20",
+            "pdf_pages": [
+              6,
+              37,
+              53,
+              62,
+              63
+            ],
+            "sample_role": "EMBA_auxiliary",
+            "preflight_verdict": "PASS"
+          },
+          {
+            "id": "P21",
+            "pdf_pages": [
+              45,
+              46,
+              51,
+              56,
+              62,
+              73,
+              74
+            ],
+            "sample_role": "MEM_core",
+            "preflight_verdict": "PASS"
+          }
+        ]
+      },
+      "interpretation_limit": "只判断信息与证据作用，不判断作者是否使用AI，也不对整篇论文作学校评阅。",
+      "institutional_mandate": false
+    }
+  ],
+  "section_and_citation_extensions": [
+    {
+      "id": "S01",
+      "rule": "目录与全文结构按任务对应，不强制章数",
+      "basis": "college_template_plus_genre_observation",
+      "source": "MEM2026 comment:17",
+      "scope": "最新学院模板控制目录排版；语料只支持组织方式参考"
+    },
+    {
+      "id": "S02",
+      "rule": "中英文摘要与正文逐项语义核对",
+      "basis": "template_and_independent_quality_constraint",
+      "illustrations": [
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              3,
+              6
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            3,
+            5,
+            64,
+            71
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            3,
+            61,
+            62,
+            66
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P19",
+          "pdf_pages": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            13,
+            59
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            6,
+            18,
+            27,
+            62,
+            63
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            3,
+            45,
+            46,
+            51,
+            72,
+            76,
+            77
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "scope": "遇矛盾回源核定，不擅选有利版本"
+    },
+    {
+      "id": "S03",
+      "rule": "文献插入、命题支持、文内编号与文末著录分别检查",
+      "basis": "MEM_template_GB2025_and_quality_constraint",
+      "illustrations": [
+        {
+          "id": "P06",
+          "pdf_page_ranges": [
+            [
+              12,
+              12
+            ],
+            [
+              94,
+              94
+            ]
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P07",
+          "pdf_page_ranges": [
+            [
+              14,
+              14
+            ],
+            [
+              76,
+              77
+            ],
+            [
+              142,
+              145
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P10",
+          "pdf_page_ranges": [
+            [
+              13,
+              20
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P11",
+          "pdf_page_ranges": [
+            [
+              15,
+              19
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              10,
+              19
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              12,
+              16
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P15",
+          "pdf_pages": [
+            8,
+            19,
+            36,
+            54,
+            81,
+            82,
+            83,
+            84
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P19",
+          "pdf_pages": [
+            54,
+            63,
+            64
+          ],
+          "sample_role": "MBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            24,
+            25,
+            70,
+            71
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            11,
+            20,
+            23,
+            80,
+            82,
+            84
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "scope": "本轮未外部核真所有引用，详细规范见citations.md与normative-sources.json"
+    },
+    {
+      "id": "S04",
+      "rule": "预测、仿真、问卷及工时研究按真实方法条件增加检查",
+      "basis": "conditional_research_type_guidance",
+      "illustrations": [
+        {
+          "id": "P08",
+          "pdf_page_ranges": [
+            [
+              24,
+              26
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P09",
+          "pdf_page_ranges": [
+            [
+              54,
+              66
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P12",
+          "pdf_page_ranges": [
+            [
+              19,
+              19
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P14",
+          "pdf_page_ranges": [
+            [
+              38,
+              40
+            ]
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            40,
+            49,
+            50,
+            53
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            11,
+            48,
+            50
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            15,
+            22,
+            35,
+            36,
+            40
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P20",
+          "pdf_pages": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            60,
+            61,
+            62
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            46,
+            47,
+            49,
+            51,
+            53,
+            54,
+            56,
+            63,
+            64,
+            70,
+            71
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "counterexamples": [
+        {
+          "id": "P20",
+          "pdf_pages": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "sample_role": "EMBA_auxiliary",
+          "preflight_verdict": "PASS"
+        },
+        {
+          "id": "P21",
+          "pdf_pages": [
+            40,
+            41,
+            42,
+            59,
+            60,
+            62,
+            63,
+            64,
+            69,
+            70,
+            72,
+            73
+          ],
+          "sample_role": "MEM_core",
+          "preflight_verdict": "PASS"
+        }
+      ],
+      "scope": "针对相应研究类型启用，未复现原数据，不裁定已发生泄漏或模型无效"
+    }
+  ],
+  "revision_note": "Final v1.1 guides incorporate all groups; the independent group checks the earlier candidates and contributes refinements, not an independent effectiveness test of the final guide."
+}

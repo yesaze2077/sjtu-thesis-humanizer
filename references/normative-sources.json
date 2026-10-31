@@ -1,0 +1,89 @@
+{
+  "schema": "sjtu-thesis-normative-sources/v1",
+  "verified_as_of": "2026-11-01",
+  "sources": [
+    {
+      "id": "MEM2026",
+      "kind": "user_designated_latest_applicable_college_template_for_current_project",
+      "sha256": "a1b48ce078863729f08035dfc791e32e50f7878bd53baeb5801d999c49827c6e",
+      "read_scope": "relevant original XML text and comments, no new whole-template visual certification",
+      "locators": {
+        "TOC": "comment:17",
+        "abstract_cn": "comment:13",
+        "abstract_en": "comment:15",
+        "keywords": [
+          "comment:14",
+          "comment:16"
+        ],
+        "citations": "comment:39",
+        "bibliography": "comment:74"
+      },
+      "distribution": "not_redistributed",
+      "future_revision_policy": "newer applicable college template supersedes bundled profile"
+    },
+    {
+      "id": "GB2025",
+      "kind": "standard_text_hosted_by_SJTU_Journal_Center",
+      "landing_url": "https://qk.sjtu.edu.cn/resource/file/11696",
+      "file_url": "https://qk.sjtu.edu.cn/storage/qk/web/cn/article/2026/07/1626e7e69f7d92024c6f343cc00bc814.pdf",
+      "sha256": "24aeb9dcd3af0e2800995ec2c5c058c4cf05dd8b8e36097c0eecf6af367f5146",
+      "pdf_pages": 45,
+      "read_pdf_ordinal_pages": [
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34
+      ],
+      "visual_checked_pdf_pages": [
+        10,
+        21,
+        23,
+        25,
+        30
+      ],
+      "method": "offline OCR of supplied public standard; actual selected clause reading, 5 original page images checked",
+      "structural_preflight": "PASS_structure_only",
+      "clause_scope": [
+        "7.1-7.9",
+        "8.1-8.3",
+        "8.5.2-8.11",
+        "8.12",
+        "8.14-8.15",
+        "9.1-9.3",
+        "A.1"
+      ],
+      "full_standard_AI_read": false,
+      "distribution": "standard text and page images not included in open-source repository",
+      "full_style_conformance_certified": false
+    },
+    {
+      "id": "GB2025-METADATA",
+      "kind": "official_national_standard_metadata",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C6CE52E55AC09B9C79A20AEA77CEDD14",
+      "implementation_date": "2026-07-01",
+      "status_as_seen": "current",
+      "read_scope": "metadata only, text separately obtained through university source"
+    }
+  ]
+}

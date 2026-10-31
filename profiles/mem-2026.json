@@ -1,7 +1,7 @@
 {
   "schema": "sjtu-thesis-format-profile/v1",
   "id": "mem-2026",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "label": "用户提供2026 MEM模板适配",
   "scope": "user_designated_MEM_template_not_all_SJTU_degrees",
   "sources": [
@@ -324,12 +324,13 @@
     "header": "9pt宋体，当前章动态标题",
     "toc": "最多三级真实自动目录",
     "reference_standard_target": "GB/T 7714-2025",
-    "standard_full_text_verified": false,
     "reference_hanging_indent_normative": null,
     "appendix_labels": [
       "附录A",
       "附录B"
-    ]
+    ],
+    "standard_text_obtained": true,
+    "bibliography_full_conformance_certified": false
   },
   "conflicts": [
     {
@@ -368,5 +369,11 @@
     "PDF visual review"
   ],
   "selection_policy": "MEM uses latest applicable college template; this project currently uses user-designated college MEM2026, future college revisions supersede this profile.",
-  "project_template_selected_by_user": true
+  "project_template_selected_by_user": true,
+  "standard_evidence": {
+    "standard_text_obtained": true,
+    "relevant_clause_review": "references/normative-sources.json",
+    "all_standard_pages_read": false,
+    "final_bibliography_conformance": false
+  }
 }
