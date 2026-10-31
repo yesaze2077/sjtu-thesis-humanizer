@@ -1,0 +1,372 @@
+{
+  "schema": "sjtu-thesis-format-profile/v1",
+  "id": "mem-2026",
+  "version": "1.0.0",
+  "label": "用户提供2026 MEM模板适配",
+  "scope": "user_designated_MEM_template_not_all_SJTU_degrees",
+  "sources": [
+    {
+      "id": "mem2026-docx",
+      "local_name": "MEM模板_2026版.docx",
+      "sha256": "a1b48ce078863729f08035dfc791e32e50f7878bd53baeb5801d999c49827c6e",
+      "size_bytes": 422159,
+      "institutional_issuance_verified": false,
+      "current_cohort_applicable_verified": false
+    }
+  ],
+  "evidence": "../references/template-evidence.json",
+  "applicability_verified": false,
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "top_mm": 35,
+    "bottom_mm": 40,
+    "left_mm": 25,
+    "right_mm": 25,
+    "header_mm": 25,
+    "footer_mm": 30,
+    "gutter_mm": 5
+  },
+  "roles": {
+    "body": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 12,
+      "align": "justify",
+      "first_line_chars": 2,
+      "line_pt": 20,
+      "line_rule": "atLeast",
+      "space_before_pt": 0,
+      "space_after_pt": 0
+    },
+    "heading1": {
+      "font_cn": "黑体",
+      "font_latin": "Times New Roman",
+      "font_pt": 16,
+      "align": "center",
+      "bold": true,
+      "outline_level": 0,
+      "new_page": true,
+      "line_pt": 20,
+      "line_rule": "atLeast",
+      "space_before_pt": 24,
+      "space_after_pt": 18
+    },
+    "heading2": {
+      "font_cn": "黑体",
+      "font_latin": "Times New Roman",
+      "font_pt": 14,
+      "align": "left",
+      "bold": true,
+      "outline_level": 1,
+      "line_pt": 18,
+      "line_rule": "atLeast",
+      "space_before_pt": 24,
+      "space_after_pt": 6
+    },
+    "heading3": {
+      "font_cn": "黑体",
+      "font_latin": "Times New Roman",
+      "font_pt": 12,
+      "align": "left",
+      "bold": true,
+      "outline_level": 2,
+      "line_pt": 16,
+      "line_rule": "atLeast",
+      "space_before_pt": 12,
+      "space_after_pt": 6
+    },
+    "abstract_cn_title": {
+      "font_cn": "黑体",
+      "font_latin": "Times New Roman",
+      "font_pt": 12,
+      "bold": true,
+      "align": "center",
+      "line_pt": 20,
+      "line_rule": "atLeast",
+      "space_before_pt": 6
+    },
+    "abstract_cn": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 12,
+      "align": "justify",
+      "first_line_chars": 2,
+      "line_pt": 20,
+      "line_rule": "atLeast"
+    },
+    "abstract_en": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 12,
+      "align": "justify",
+      "first_line_chars": 1.5,
+      "line_pt": 20,
+      "line_rule": "atLeast"
+    },
+    "figure_caption": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 10.5,
+      "align": "center"
+    },
+    "reference": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 10.5,
+      "line_pt": 16,
+      "line_rule": "atLeast",
+      "space_before_pt": 0,
+      "space_after_pt": 3
+    },
+    "table_caption": {
+      "font_cn": "宋体",
+      "font_latin": "Times New Roman",
+      "font_pt": 10.5,
+      "align": "center",
+      "line_pt": 14,
+      "line_rule": "atLeast"
+    }
+  },
+  "role_sources": {
+    "page": {
+      "locators": [
+        "body_p:218",
+        "body_p:219",
+        "web:页面设置"
+      ],
+      "source_ids": [
+        "MEM-TPL",
+        "SCHOOL-WRITE"
+      ],
+      "origin": "combined_norm",
+      "status": "source_read_not_visual_certified"
+    },
+    "body": {
+      "locators": [
+        "comment:38",
+        "body_p:221"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "source_read_not_visual_certified"
+    },
+    "heading1": {
+      "locators": [
+        "comment:24"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "source_read_not_visual_certified"
+    },
+    "heading2": {
+      "locators": [
+        "comment:27"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "source_read_not_visual_certified"
+    },
+    "heading3": {
+      "locators": [
+        "comment:30"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "source_read_not_visual_certified"
+    },
+    "header": {
+      "locators": [
+        "body_p:223"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_text",
+      "status": "source_read_not_visual_certified"
+    },
+    "page_numbering": {
+      "locators": [
+        "body_p:224",
+        "comment:2",
+        "comment:5"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "combined_norm",
+      "status": "source_read_not_visual_certified"
+    },
+    "abstract_cn_title": {
+      "locators": [
+        "comment:13"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "specific_override_of_generic_heading1"
+    },
+    "abstract_cn_body": {
+      "locators": [
+        "comment:13",
+        "body_p:88"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "combined_norm",
+      "status": "source_read_not_visual_certified"
+    },
+    "abstract_en": {
+      "locators": [
+        "comment:15",
+        "comment:24",
+        "comment:38",
+        "body_p:221"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "provisional_interpretation",
+      "status": "title_style_inherited_not_separately_sized_in_comment"
+    },
+    "TOC": {
+      "locators": [
+        "comment:17"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_comment",
+      "status": "source_read_not_visual_certified"
+    },
+    "figure_caption": {
+      "locators": [
+        "body_p:234"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_text",
+      "status": "source_read_not_visual_certified"
+    },
+    "table_caption": {
+      "locators": [
+        "body_p:243",
+        "body_p:244"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "norm_text",
+      "status": "source_read_not_visual_certified"
+    },
+    "table_body": {
+      "locators": [
+        "body_p:245",
+        "body_p:246",
+        "body_p:239",
+        "comment:55",
+        "body_p:221"
+      ],
+      "source_ids": [
+        "MEM-TPL"
+      ],
+      "origin": "combined_norm",
+      "status": "source_read_not_visual_certified"
+    },
+    "references": {
+      "locators": [
+        "comment:74",
+        "body_p:221",
+        "web:标准号"
+      ],
+      "source_ids": [
+        "MEM-TPL",
+        "GB-2025-METADATA"
+      ],
+      "origin": "combined_norm",
+      "status": "standard_metadata_verified_full_reference_audit_pending"
+    }
+  },
+  "implementation_defaults": {
+    "line_rule": "atLeast",
+    "body_spacing_before_after_pt": [
+      0,
+      0
+    ],
+    "roman_case": "upperRoman",
+    "table_numbering": "chapter_sequence",
+    "electronic_gutter": "left5mm",
+    "warning": "Line-rule type, defaults and provisional conflict handling are not separately certified college requirements."
+  },
+  "manual_rules": {
+    "title_cn": "宋体22pt粗体，最多2行",
+    "title_en": "Times New Roman18pt粗体大写",
+    "keywords": [
+      4,
+      5
+    ],
+    "keywords_min_source": "校级4-6与模板最多5的交集；不是模板单独明定最少4",
+    "figure_caption": "图下，中英对照，10.5pt宋体，图题同页",
+    "table_caption": "表上，中英对照，中文粗体",
+    "table_borders": "三线表，上下1.5pt，表头下0.5pt，无左右外线",
+    "page_numbering": "封面无页码，摘要至目录罗马数字，正文起1连续阿拉伯数字",
+    "header": "9pt宋体，当前章动态标题",
+    "toc": "最多三级真实自动目录",
+    "reference_standard_target": "GB/T 7714-2025",
+    "standard_full_text_verified": false,
+    "reference_hanging_indent_normative": null,
+    "appendix_labels": [
+      "附录A",
+      "附录B"
+    ]
+  },
+  "conflicts": [
+    {
+      "id": "L04",
+      "topic": "2026 binding",
+      "locators": [
+        "mem2026:body_p215",
+        "mem2026:body_p218"
+      ],
+      "action": "right physical binding vs left gutter conflict; electronic left5mm provisional; confirm print direction"
+    },
+    {
+      "id": "L05",
+      "topic": "2026 table numbering",
+      "locators": [
+        "mem2026:body_p242",
+        "mem2026:body_p245",
+        "mem2026:body_p247"
+      ],
+      "action": "continuous instruction vs chapter examples; chapter numbering provisional"
+    },
+    {
+      "id": "L07",
+      "topic": "academic degree and applicability",
+      "details": "filename engineering master but body engineering management; legacy cover2021/PDF2022 does not prove official issuance year or current validity",
+      "action": "require actual student registration and applicable cohort template"
+    }
+  ],
+  "not_automated": [
+    "cover/declarations",
+    "header/footer and page numbering",
+    "TOC/SEQ/REF fields",
+    "table borders",
+    "equations",
+    "reference metadata",
+    "PDF visual review"
+  ],
+  "selection_policy": "MEM uses latest applicable college template; this project currently uses user-designated college MEM2026, future college revisions supersede this profile.",
+  "project_template_selected_by_user": true
+}

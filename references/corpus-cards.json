@@ -1,0 +1,161 @@
+{
+  "as_of": "2026-11-01",
+  "sample_count": 3,
+  "actually_read_page_count": 13,
+  "cards": [
+    {
+      "id": "C01",
+      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
+      "sha256": "864f6e16b011a17ea2bec9327cecfdb5f7c03c4dee3a50f3c329a23f4256e47b",
+      "read_pdf_ordinal_pages": [
+        26,
+        48,
+        75
+      ],
+      "read_method": "AI visual reading of page images rendered from original PDF in this run",
+      "full_thesis_read": false,
+      "text_or_images_redistributed": false,
+      "not_normative": true,
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_content_or_visual_certification"
+      }
+    },
+    {
+      "id": "C02",
+      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
+      "sha256": "695e8206affd0070ad81ab56812f522e6e4c0dcdcd2679f8c4575bfe33e6d6a9",
+      "read_pdf_ordinal_pages": [
+        31,
+        43,
+        74,
+        76,
+        77,
+        78
+      ],
+      "read_method": "AI visual reading of page images rendered from original PDF in this run",
+      "full_thesis_read": false,
+      "text_or_images_redistributed": false,
+      "not_normative": true,
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_content_or_visual_certification"
+      }
+    },
+    {
+      "id": "C03",
+      "source_kind": "locally supplied SJTU MEM thesis, anonymous genre reference",
+      "sha256": "15ebe95499646e114739836e62abb1940bda934c0ed9e036326faa04f47cc1df",
+      "read_pdf_ordinal_pages": [
+        14,
+        24,
+        66,
+        73
+      ],
+      "read_method": "AI visual reading of page images rendered from original PDF in this run",
+      "full_thesis_read": false,
+      "text_or_images_redistributed": false,
+      "not_normative": true,
+      "structural_preflight": {
+        "verdict": "PASS",
+        "scope": "structure_only_not_content_or_visual_certification"
+      }
+    }
+  ],
+  "schema": "sjtu-thesis-corpus-cards/v1",
+  "selection_warning": "Limited genre references; not normative institutional language requirements or an author style fingerprint.",
+  "rule_evidence": [
+    {
+      "id": "C-R01",
+      "rule": "参与者、职责和具体动作先行",
+      "locators": [
+        "C03:PDF24"
+      ]
+    },
+    {
+      "id": "C-R02",
+      "rule": "工具名称对应实际取消、合并、重排或新增活动",
+      "locators": [
+        "C02:PDF43"
+      ]
+    },
+    {
+      "id": "C-R03",
+      "rule": "指标定义与结果评价前后对应",
+      "locators": [
+        "C02:PDF31",
+        "C02:PDF74"
+      ]
+    },
+    {
+      "id": "C-R04",
+      "rule": "方案回应已诊断问题",
+      "locators": [
+        "C03:PDF66"
+      ]
+    },
+    {
+      "id": "C-R05",
+      "rule": "图前引入问题，图后解释关系与实施",
+      "locators": [
+        "C01:PDF48",
+        "C03:PDF14"
+      ]
+    },
+    {
+      "id": "C-R06",
+      "rule": "真实并列关系的列表和序号保留",
+      "locators": [
+        "C03:PDF24",
+        "C02:PDF74"
+      ]
+    },
+    {
+      "id": "C-R07",
+      "rule": "管理问题落在具体流程障碍，根因强度另行核对",
+      "locators": [
+        "C02:PDF31",
+        "C01:PDF26"
+      ]
+    },
+    {
+      "id": "C-R08",
+      "rule": "比较保留前后值与量纲，计算措辞独立核验",
+      "locators": [
+        "C02:PDF74"
+      ]
+    },
+    {
+      "id": "C-R09",
+      "rule": "保留尚未达到参照水平的结果",
+      "locators": [
+        "C02:PDF74"
+      ]
+    },
+    {
+      "id": "C-R10",
+      "rule": "结论概括具体管理认识",
+      "locators": [
+        "C02:PDF76"
+      ]
+    },
+    {
+      "id": "C-R11",
+      "rule": "展望针对实际未完成工作",
+      "locators": [
+        "C02:PDF77"
+      ]
+    },
+    {
+      "id": "C-R12",
+      "rule": "选择性借鉴，样本重复、拔高和统计表达疑点不复制",
+      "locators": [
+        "C03:PDF73",
+        "C01:PDF48",
+        "C01:PDF75",
+        "C02:PDF74"
+      ]
+    }
+  ],
+  "independent_quality_principles": "Causal validity, citation fidelity, AI disclosure and privacy are separate quality constraints, not empirical findings proved by these sample pages."
+}

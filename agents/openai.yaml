@@ -1,0 +1,4 @@
+interface:
+  display_name: "交大中文论文语言与排版"
+  short_description: "基于交大论文样本改善学术表达，按指定工程硕士或MEM模板排版核验"
+  default_prompt: "请用 $sjtu-thesis-humanizer 在保留事实、引用和研究限制的前提下，润色当前中文论文，并按适用模板检查格式。"

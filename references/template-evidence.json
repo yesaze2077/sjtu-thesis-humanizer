@@ -1,0 +1,421 @@
+{
+  "schema": "sjtu_template_comparison/v1",
+  "audit_date": "2026-11-01",
+  "read_scope": "Legacy PDF all 20 pages text extracted, PDF pages 1/4/7/10 rendered and visually inspected; original DOC text and comments extracted via textutil. MEM2026 original XML comments and relevant body paragraphs read; existing project rules used for cross-check, not a new whole-document visual certification.",
+  "sources": [
+    {
+      "id": "legacy-doc",
+      "local_name": "申请上海交通大学工程硕士学位论文格式样板.doc",
+      "sha256": "b80f750cbda78f3a7aaf5fff9b253d483b3dda35794dd0087964caab84f84c51",
+      "size_bytes": 410624
+    },
+    {
+      "id": "legacy-pdf",
+      "local_name": "申请上海交通大学工程硕士学位论文格式样板.pdf",
+      "sha256": "5f9332b5697465904d105e2d46601d6591c92a564dbbdfb25da9bf22eb99e1c4",
+      "size_bytes": 1002613,
+      "pages": 20,
+      "pdf_creation_metadata": "2022-05-04",
+      "cover_example_year": "2021",
+      "academic_degree_in_body": "工程管理硕士 / Master of Engineering Management",
+      "institutional_issuance_verified": false,
+      "current_cohort_applicable_verified": false
+    },
+    {
+      "id": "mem2026-docx",
+      "local_name": "MEM模板_2026版.docx",
+      "sha256": "a1b48ce078863729f08035dfc791e32e50f7878bd53baeb5801d999c49827c6e",
+      "size_bytes": 422159,
+      "institutional_issuance_verified": false,
+      "current_cohort_applicable_verified": false
+    }
+  ],
+  "recommended_policy": {
+    "implicit_profile_selection": false,
+    "profiles_separate": true,
+    "this_project_preferred": "mem-2026-local",
+    "public_default": "require user template + cohort check; do not silently install an institutional default",
+    "source_priority": "Applicable binding/cohort rules, then user's applicable designated template text/comments, then general school requirements, then implementation defaults. Sample OOXML and published thesis appearance are evidence, not normative rules.",
+    "template_binary_distribution": false,
+    "pdf_comment_balloon_caveat": "Legacy PDF renders review balloons and shrinks content to fit them. Do not infer final clean layout dimensions from PDF screenshot geometry.",
+    "conversion_caveat": "macOS textutil converts old DOC to text for comment extraction but its DOCX conversion loses comment structure and yields Letter page settings; converted DOCX is not a faithful format master. For real formatting use a layout-preserving converter on a copy, then verify against original comments.",
+    "user_clarification_2026_11_01": "MEM论文以学院最新模板为准；本项目当前学院2026 MEM，旧样板仅历史对照，不作为现行MEM正式选项。"
+  },
+  "legacy_rules": [
+    {
+      "id": "page",
+      "value": {
+        "paper": "A4",
+        "top_mm": 35,
+        "bottom_mm": 40,
+        "left_mm": 28,
+        "right_mm": 28,
+        "gutter_mm": 5,
+        "gutter_side": "left",
+        "header_mm": 25,
+        "footer_mm": 30
+      },
+      "source": "legacy-pdf:p1 comment[A2]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "body",
+      "value": {
+        "font_cn": "宋体",
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "align": "justify",
+        "first_line_chars": 2
+      },
+      "source": "legacy-pdf:p7 comment[u36]; p4 comment[H18] first-line indent applies explicitly to abstract, body indent observed in p7 sample",
+      "status": "body first-line indent is observed sample/default, not explicit u36 rule"
+    },
+    {
+      "id": "title_cn",
+      "value": {
+        "font_cn": "黑体",
+        "font_pt": 26,
+        "bold": true,
+        "align": "center",
+        "max_lines": 2,
+        "max_chars": 20
+      },
+      "source": "legacy-pdf:p1 comment[u3]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "title_en",
+      "value": {
+        "font_latin": "Times New Roman",
+        "font_pt": 16,
+        "bold": true,
+        "all_caps": true,
+        "align": "center",
+        "max_lines": 3
+      },
+      "source": "legacy-pdf:p2 comment[u10]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "abstract_title_cn",
+      "value": {
+        "font_cn": "黑体",
+        "font_pt": 16,
+        "bold": true,
+        "align": "center",
+        "line_multiple": 1.25,
+        "space_before_lines": 1.5,
+        "space_after_lines": 0
+      },
+      "source": "legacy-pdf:p4 comment[H16]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "abstract_cn",
+      "value": {
+        "font_cn": "宋体",
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "align": "justify",
+        "first_line_chars": 2,
+        "approx_chars": 500
+      },
+      "source": "legacy-pdf:p4 comment[H18]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "abstract_en",
+      "value": {
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "align": "justify",
+        "first_line_halfwidth_chars": 4,
+        "content_words_general_max": 300
+      },
+      "source": "legacy-pdf:p5 comment[u25]",
+      "status": "explicit_template_comment; content word limit not total whitespace-token cap"
+    },
+    {
+      "id": "keywords",
+      "value": {
+        "min": 4,
+        "max": 6,
+        "separator": "comma",
+        "trailing_punctuation": false
+      },
+      "source": "legacy-pdf:p4 comment[H21]; p5 comment[u28]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "toc",
+      "value": {
+        "max_depth": 3,
+        "automatic_field": true,
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "page_numbers_align": "right",
+        "level1_font_cn": "黑体",
+        "other_levels_font_cn": "宋体",
+        "font_latin": "Times New Roman"
+      },
+      "source": "legacy-pdf:p6 comment[u29]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "heading1",
+      "value": {
+        "font_cn": "黑体",
+        "font_pt": 16,
+        "bold": true,
+        "align": "center",
+        "line_multiple": 1.25,
+        "space_before_lines": 1.5,
+        "new_page": true,
+        "number_title_gap_chars": 1
+      },
+      "source": "legacy-pdf:p7 comment[u32]",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "heading2",
+      "value": {
+        "font_cn": "黑体",
+        "font_latin": "Times New Roman",
+        "font_pt": 14,
+        "line_multiple": 1.25,
+        "space_before_lines": 0.5,
+        "space_after_lines": 0.5,
+        "number_title_gap_chars": 1
+      },
+      "source": "legacy-pdf:p7 comment[u34]",
+      "status": "explicit_template_comment; bold not expressly stated"
+    },
+    {
+      "id": "heading3",
+      "value": {
+        "font_cn": "黑体",
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "space_before_lines": 0.5,
+        "space_after_lines": 0.5,
+        "number_title_gap_chars": 1
+      },
+      "source": "legacy-pdf:p7 comment[孙35]",
+      "status": "explicit_template_comment; bold not expressly stated"
+    },
+    {
+      "id": "heading4",
+      "value": {
+        "avoid": true
+      },
+      "source": "legacy-pdf:p9 comment[z40]",
+      "status": "recommendation_in_template"
+    },
+    {
+      "id": "page_numbering",
+      "value": {
+        "main_start": 1,
+        "main_format": "arabic",
+        "frontmatter_format": "roman",
+        "align": "center"
+      },
+      "source": "legacy-pdf:p6 comment[孙31] explicit main start; p4-6 sample upper Roman center, p7 onward sample Arabic center",
+      "status": "main start explicit; roman/case/alignment sample observation"
+    },
+    {
+      "id": "header",
+      "value": {
+        "left": "上海交通大学工程管理硕士学位论文",
+        "right": "current chapter / section title",
+        "font_cn": null,
+        "font_pt": null
+      },
+      "source": "legacy-pdf:p6-20 repeated header visual/text observation",
+      "status": "sample_observation; p4 Chinese abstract incorrectly displays ABSTRACT, do not copy anomaly"
+    },
+    {
+      "id": "citation",
+      "value": {
+        "system": "numeric_order_of_appearance",
+        "ordinary_superscript": true,
+        "narrative_inline": true,
+        "in_headings": false
+      },
+      "source": "legacy-pdf:p8 comment[u39]; p15 comment[A61] order",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "table_caption",
+      "value": {
+        "position": "above",
+        "font_cn": "楷体/华文楷体",
+        "font_latin": "Times New Roman",
+        "font_pt": 10.5,
+        "line_multiple": 1,
+        "align": "center",
+        "bilingual_required": null
+      },
+      "source": "legacy-pdf:p10 comments[u49], [孙51]",
+      "status": "explicit_template_comment; bilingual table caption not prescribed and sample Chinese only"
+    },
+    {
+      "id": "table_body",
+      "value": {
+        "font_cn": "宋体",
+        "font_latin": "Times New Roman",
+        "font_pt": 10.5,
+        "header_align": "center",
+        "continuation_repeat_header_units": true,
+        "numbering": "chapter_sequence",
+        "three_line_required": null
+      },
+      "source": "legacy-pdf:p10 comments[u49],[A52]; sample shows full grid",
+      "status": "explicit_template_comment; no basis to impose 2026 three-line-table rule on legacy profile"
+    },
+    {
+      "id": "figure_caption",
+      "value": {
+        "position": "below",
+        "font_cn": "楷体",
+        "font_latin": "Times New Roman",
+        "font_pt": 10.5,
+        "align": "center",
+        "bilingual": true,
+        "numbering": "chapter_sequence"
+      },
+      "source": "legacy-pdf:p11 comment[u57]; p12 comment[WH58] subfigure labels",
+      "status": "explicit_template_comment"
+    },
+    {
+      "id": "equation",
+      "value": {
+        "numbering": "chapter_sequence",
+        "editable": true,
+        "base_font_pt": 10.5,
+        "definitions_indent_chars": 2
+      },
+      "source": "legacy-pdf:p9 comments[WH42],[u43],[u44]; p10 comments[A46],[x47]",
+      "status": "explicit_template_comment; modern editable equations can satisfy function, do not force obsolete editor"
+    },
+    {
+      "id": "references",
+      "value": {
+        "font_cn": "宋体",
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "first_line_indent_chars": 0,
+        "hanging_indent_chars": 2,
+        "standard_version": null,
+        "recommended_min_entries": 50
+      },
+      "source": "legacy-pdf:p15 comments[u59],[z60],[A61]",
+      "status": "indent conflict: u59 says all start two characters, A61 says sequence left-aligned with hanging two. Bibliographic standard year unspecified. >=50 is recommendation, not mandatory fabrication target."
+    },
+    {
+      "id": "appendix",
+      "value": {
+        "label_examples": [
+          "附录1",
+          "附录2"
+        ],
+        "optional": true,
+        "independent_numbering": true
+      },
+      "source": "legacy-pdf:p17 main text",
+      "status": "explicit_template_text"
+    },
+    {
+      "id": "acknowledgments",
+      "value": {
+        "font_cn": "宋体",
+        "font_latin": "Times New Roman",
+        "font_pt": 12,
+        "line_multiple": 1.25,
+        "align": "justify"
+      },
+      "source": "legacy-pdf:p18 comment[u70]",
+      "status": "explicit_template_comment"
+    }
+  ],
+  "conflicts_and_limits": [
+    {
+      "id": "L01",
+      "topic": "legacy vs 2026 margins",
+      "legacy": "28mm left/right",
+      "mem2026": "25mm left/right; body_p218",
+      "action": "separate profiles; no averaging"
+    },
+    {
+      "id": "L02",
+      "topic": "legacy vs 2026 line spacing",
+      "legacy": "1.25 multiple",
+      "mem2026": "20pt; comment38; atLeast is implementation default",
+      "action": "preserve multiple vs point semantics; do not equate 1.25 to 20pt"
+    },
+    {
+      "id": "L03",
+      "topic": "legacy reference indentation",
+      "locators": [
+        "legacy-pdf:p15 comment[u59]",
+        "legacy-pdf:p15 comment[A61]"
+      ],
+      "action": "record conflict; use sequence flush left + hanging 2 chars as provisional only, final confirm"
+    },
+    {
+      "id": "L04",
+      "topic": "2026 binding",
+      "locators": [
+        "mem2026:body_p215",
+        "mem2026:body_p218"
+      ],
+      "action": "right physical binding vs left gutter conflict; electronic left5mm provisional; confirm print direction"
+    },
+    {
+      "id": "L05",
+      "topic": "2026 table numbering",
+      "locators": [
+        "mem2026:body_p242",
+        "mem2026:body_p245",
+        "mem2026:body_p247"
+      ],
+      "action": "continuous instruction vs chapter examples; chapter numbering provisional"
+    },
+    {
+      "id": "L06",
+      "topic": "legacy sample defects",
+      "details": "Chinese abstract header is ABSTRACT; Chinese abstract subject differs from cover and English abstract; jump from page5 to52; coursework names p19 vs20 differ; example references may be illustrative/incorrect",
+      "action": "do not copy content or sample mistakes; source-text formatting rules override accidental sample artifacts"
+    },
+    {
+      "id": "L07",
+      "topic": "academic degree and applicability",
+      "details": "filename engineering master but body engineering management; legacy cover2021/PDF2022 does not prove official issuance year or current validity",
+      "action": "require actual student registration and applicable cohort template"
+    },
+    {
+      "id": "L08",
+      "topic": "legacy current regulations",
+      "details": "legacy gives GB7714 with no edition and p19-20 historical coursework-replacement notes",
+      "action": "do not turn these into current school law; require current applicable rules; existing local MEM2026 target GB/T7714-2025 is independently scoped"
+    }
+  ],
+  "mem2026_difference_summary": {
+    "page": "25mm left/right; body_p218",
+    "body": "12pt宋体 + Times New Roman, first line2 chars, line20pt; comment38",
+    "cn_cover": "22pt宋体 bold; comment3",
+    "en_cover": "18pt Times New Roman bold uppercase; comment6",
+    "cn_abstract_title": "12pt黑体 bold,line20pt,before6pt; comment13",
+    "keywords": "no more than5; comment14; existing project combines school4-6 =>4-5, not pure template min",
+    "headings": "16/14/12pt; comments24/27/30; line20/18/16pt, before24/24/12pt,after18/6/6pt",
+    "toc": "12pt宋体, first level bold,20pt,indent0/2/4chars; comment17",
+    "figures": "10.5pt宋体+Times New Roman,bilingual,below,same-page; body_p234",
+    "tables": "10.5pt宋体+Times New Roman,bilingual above,line14pt,CN bold; three-line borders1.5/.5pt; body_p244/246,comment55",
+    "references": "10.5pt宋体+Times New Roman,line16pt,before0,after3; GB/T7714-2025; comment74; hanging indent unspecified",
+    "appendix": "A/B labels; comment77"
+  }
+}
