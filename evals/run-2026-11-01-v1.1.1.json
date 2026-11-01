@@ -1,0 +1,75 @@
+{
+  "schema": "sjtu-thesis-expression-eval/v1",
+  "client_date": "2026-11-01",
+  "skill_version": "1.1.1",
+  "data_origin": "synthetic_only_no_thesis_or_business_excerpt",
+  "execution": "Independent agent completed requests using skill without expected checks; root agent inspected full outputs against separately retained semantic checks.",
+  "fixture_note": "E19 synthetic input clarified measurement-error terminology before the final rerun. Earlier ambiguous-input output retained privately and excluded from final record.",
+  "cases": [
+    {
+      "id": "E17",
+      "output": "第3章 交接问题分析\n\n三次作业记录反映出交接过程中存在附件遗漏。由于未记录同期全部交接次数，现有资料无法计算附件遗漏率；同时，返工时长未被记录，附件遗漏的原因也尚无独立调查依据。\n\n第4章 交接清单实施\n\n针对交接过程中出现的附件遗漏，系统已上线交接清单，并将附件项目列入交接页面，供交接时核对。\n\n第5章 实施评价\n\n上线后核对的100条交接记录中，97条附件齐全，附件齐全比例为97%（97/100）。该结果反映了本次核对记录的附件完整情况。由于缺少可比的上线前附件齐全比例，尚不能判断附件遗漏是否减少；现有资料也不足以评价返工时长和成本的变化。该方案在其他仓库的适用性仍需验证。\n\n必要修改与待核项：\n\n- 将抽象的“协同闭环”改为具体功能描述，删除现有资料无法支持的显著减少返工、全面降本和普遍适用结论。\n- 待核实三次作业记录及上线后100条记录的时间窗、纳入范围、选取方式和附件齐全判定标准。如需评价改善幅度、返工或成本变化，还需相应的可比数据；附件遗漏原因需另行调查。",
+      "semantic_checks": [
+        "保留三次遗漏记录、总体交接次数和返工时长未记录、原因未独立调查",
+        "保留清单已上线及上线后100条中97条齐全",
+        "不产生改善前比例、显著改善、节时降本或普适结论",
+        "衔接清单针对附件交接及完整度评价，不将其替代返工效果",
+        "给出实际修订文本而非仅列口号"
+      ],
+      "root_agent_semantic_review": {
+        "status": "passed_within_scope",
+        "note": "Retains missing denominators and unknown causes; correctly derives 97/100=97% only for reviewed post-launch records; no invented baseline or causal cost saving."
+      }
+    },
+    {
+      "id": "E18",
+      "output": "第2章 研究设计\n\n本文以客户、会话和工单为不同分析单位。客户按身份去重计数，会话按连续访问计数，工单按独立问题计数。\n\n第3章 现状分析\n\n现有记录覆盖18名客户、40次会话和12条工单。本节沿用第2章的客户定义，未开展访谈。\n\n第4章 改善方案\n\n拟于下季度试点统一资料入口，目前尚未上线。该方案能否改善服务问题，仍需通过试点评价。\n\n已统一客户称谓和正式语气，同时保留客户、会话、工单三种分析单位，以及方案尚未上线的状态。",
+      "semantic_checks": [
+        "客户18名、会话40次、工单12条及各自定义保持区别",
+        "同一客户概念称谓稳定，不强行将不同单位统一成用户",
+        "没有访谈、拟下季度试点和未上线状态保留",
+        "去除口语和无依据的已建系统/彻底解决宣称，不虚构实施或作者经历",
+        "前后学术语气一致，并有实际修订文本"
+      ],
+      "root_agent_semantic_review": {
+        "status": "passed_within_scope",
+        "note": "Preserves distinct units and 18/40/12 counts, no interviews and planned pilot; stable formal register."
+      }
+    },
+    {
+      "id": "E19",
+      "output": "这段中的专业术语、三步程序和概念对照均有明确作用，可保留。以下仅调整个别句子衔接：\n\n闭环控制器根据反馈误差调整控制量。实验程序分为三步：首先读取传感器输出，其次计算误差，最后更新控制信号。本节区分测量误差与响应延迟：前者是测量值与参考值之差，后者是输入变化至控制器响应的时间。本研究仅在仿真环境中验证程序，未开展实机试验。",
+      "semantic_checks": [
+        "保留闭环控制器及三步操作顺序",
+        "区分测量误差和响应延迟的专业定义，不盲目替换术语",
+        "仅仿真和未做实机保留",
+        "不为了自然刻意口语化、编造作者经历或随机打乱句式",
+        "允许准确部分原样保留，不以改字数量代表质量"
+      ],
+      "root_agent_semantic_review": {
+        "status": "passed_within_scope",
+        "note": "Preserves meaningful closed-loop term, operation order, distinct definitions and simulation-only status; minimal edits allowed."
+      }
+    },
+    {
+      "id": "E20",
+      "output": "修订稿：\n\n围绕资料的表达与维护，文献甲[1]研究了制造现场的书面作业指导，认为清晰的步骤可能有助于理解；文献乙[2]讨论了服务资料的权限维护，但未测量处理时间。两项研究均未以本机构为对象，其研究内容和测量范围不足以证明统一入口能够提升本机构或其他机构的服务效率。\n\n本研究目前仅记录了本机构资料入口分散的现状，尚未实施统一入口，也未记录处理时间。因此，现有资料可以用于描述入口分散的情况，尚不足以评价统一入口的运行效果及其对处理时间的影响。\n\n结论：本研究记录了本机构资料入口分散的现状。由于统一入口尚未实施，且缺少处理时间数据，目前不能判断其对服务效率的影响。\n\n无法靠润色解决的问题：\n\n- 统一入口尚未实施，处理时间也未测量，不能形成缩短处理时间的实证结论。后续评价需明确时间指标、数据窗口及可比的实施前后或对照条件。\n- 两篇文献的研究对象和结论范围不能支撑“任何机构”“必然提升”的泛化判断，跨情境适用性需要另有证据。\n- 本次未提供文献原文和完整题录，[1][2]按原稿保留；原文命题支持及文末著录仍待核验。",
+      "semantic_checks": [
+        "甲[1]的制造现场和可能性、乙[2]的权限研究及未测时间保持对应",
+        "不造两文共识、额外题录或本机构的实证支持",
+        "保留本研究未实施和未测时间，结论与正文一致",
+        "综述与现状/建议关系可读且有实际修改，不靠因此掩盖论证缺口",
+        "专业自然并统一风格，无虚构访谈或成果"
+      ],
+      "root_agent_semantic_review": {
+        "status": "passed_within_scope",
+        "note": "Keeps source scope and uncertainty, no unimplemented/time-saving result; discussion and conclusion agree."
+      }
+    }
+  ],
+  "limitations": [
+    "Four short synthetic cases, including short multi-section excerpts; no full-thesis or human expert evaluation.",
+    "Single independent same-family agent run with one clarified-fixture rerun; no statistical efficacy or AI-origin inference.",
+    "No external source, complete technical standard, bibliography or school-acceptance certification."
+  ]
+}

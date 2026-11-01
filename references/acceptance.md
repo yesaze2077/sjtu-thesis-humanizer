@@ -8,6 +8,15 @@
   "input_sha256": "原稿指纹",
   "profile_id": null,
   "language_review": "completed | partial | not_checked",
+  "expression_quality": {
+    "academic_rigor": "not_checked",
+    "argument_logic": "not_checked",
+    "terminology_and_methods": "not_checked",
+    "natural_academic_prose": "not_checked",
+    "style_consistency": "not_checked",
+    "paragraph_and_chapter_coherence": "not_checked"
+  },
+  "continuous_manuscript_reading": {"status": "not_checked", "scope": [], "evidence": []},
   "claim_and_citation_check": "completed | partial | not_checked",
   "section_review": {},
   "citation_support_and_placement": "not_checked",
@@ -24,6 +33,8 @@
 ```
 
 每个 completed 应有范围与证据路径；只检查部分段落或部分页就记录 partial。完成机器检查也不能将作者/导师/学院状态改为通过。缺少字体、真实字段更新或渲染器时明确下一项检查，不用“已生成Word”代替排版验收。
+
+`expression_quality` 按 [全文质量指南](manuscript-quality.md) 六项要求分别记录 completed、partial 或 not_checked，并保留实际范围、问题定位和必要改例。全稿逐章修订后另记整稿连续阅读：核查问题—方法—发现—结论、相邻章节衔接和全文风格。短文本任务可将该项记为 not_applicable 并说明范围。数字保全或词频扫描不能替代逻辑、术语及连贯性判断。
 
 全稿的 `section_review` 分别登记目录、中英文摘要、绪论、文献理论、方法、现状诊断、方案实施、评价讨论、结论、文内引用和文末文献；合并章节仍按实际任务登记，缺少或不适用写明原因。引用的支持关系、位置、编号、题录和著录格式分别核查，不能用一次正则扫描替代全部项目。
 
